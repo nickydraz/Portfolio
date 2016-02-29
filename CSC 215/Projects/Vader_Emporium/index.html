@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Vader's Emporium | Log-In Page</title>
+
+    <script>
+      function validateRegular()
+      {
+        if (document.getElementById("username").value == "")
+        {
+          alert("Please enter a username");
+          return false;
+        }
+
+        if (document.getElementById("password").value == "")
+        {
+          alert("Please enter a password");
+          return false;
+        }
+
+      }
+
+      function validateForgot()
+      {
+        if (document.getElementById("username").value == "")
+        {
+          
+        }
+      }
+
+      function forgotPassword()
+      {
+        document.getElementById("login").action = "forgotPw.php";
+
+        document.getElementById("login").submit();
+      }
+    </script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="loginBox">
+        <form name="login" id="login" action="processlogin.php" method="post">
+          <label for="username">Username: </label>
+          <input type="text" name="username" value="" >
+          <br />
+          <label for="password">Password:&nbsp;</label>
+          <input type="password" name="password" value="" >
+          <br />
+          <input type="button" value="New Registration" id="newReg" onclick="window.location='registration.html'" >
+          <input type="button" value="Forgot Password" id="forgot" onclick="forgotPassword()" >
+          <br />
+          <input type="submit" value="Submit" id="subBtn" >
+          <input type="reset" value="Reset" id="reset" >
+
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

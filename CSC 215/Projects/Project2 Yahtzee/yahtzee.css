@@ -1,0 +1,71 @@
+/*Coded by Nicholas Drazneovic */
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-image: url(EarthFromMoon.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+
+h1 {
+  background-color: rgba(35, 31, 32, 0.80);
+  width: 400px;
+  margin: 0 auto;
+}
+
+div {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#playerName {
+  background-color: rgba(35, 31, 32, 0.80);
+  width: 400px;
+  margin: 0 auto;
+}
+
+#info {
+  background-color: rgba(35, 31, 32, 0.80);
+  width: 400px;
+  margin: 0 auto;
+}
+
+#container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+  background-color: rgba(35, 31, 32, 0.80);
+}
+
+#scoreTable {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#scoreTable td {
+  width: 100px;
+  height: 30px;
+  font-size: 125%;
+  border-collapse: collapse;
+  padding: 0;
+}
+
+#dice tr {
+  text-align:center;
+}
+
+#d1, #d2, #d3, #d4, #d5 {
+  border: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+.clickable:hover {
+  cursor: pointer;
+}

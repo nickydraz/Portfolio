@@ -1,0 +1,29 @@
+/**
+Coded By Nicholas Drazenovic
+**/
+body {
+	font-family: sans-serif;
+}
+
+table {
+	width: 300px;
+	border: solid;
+	border-width: 2px;
+	border-color: grey;
+	padding: 2px;
+}
+
+#title {
+	background-color: LightBlue;
+}
+
+#titleText {
+	border:solid;
+	border-width: 1px;
+	}
+h2 {
+	color:red;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}

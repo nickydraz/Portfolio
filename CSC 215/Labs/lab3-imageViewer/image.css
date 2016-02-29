@@ -1,0 +1,18 @@
+body {
+  background-color: grey;
+}
+
+div {
+  background-color: lightGrey;
+  width: auto;
+  text-align:center;
+  margin: 0 auto;
+  border:solid;
+  border-width: 1px;
+  font-family:sans-serif;
+}
+
+img {
+  border: solid;
+  border-width: 2px;
+}

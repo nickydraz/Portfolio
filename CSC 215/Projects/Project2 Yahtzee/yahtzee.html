@@ -1,0 +1,130 @@
+<!--Coded by Nicholas Drazenovic -->
+<html>
+  <head>
+      <title>Multi-Player Yahtzee!</title>
+      <link rel="stylesheet" type="text/css" href="yahtzee.css">
+      <script language="javascript" type="text/javascript" src="yahtzee.js"></script>
+  </head>
+
+  <body onload="createPlayer()">
+
+    <div id="container">
+      <h1>Moon Yahtzee!</h1>
+      <div id="playerName">
+        Current Astronaut:
+      </div>
+      <p id="info">Click on a score to save it</p>
+      <form id="scoring">
+      <div id="scoreSheet">
+        <table id="scoreTable" cellspacing="0" cellpadding="0">
+          <tr>
+            <td readonly></td>
+            <td readonly style="background-image: url(score.gif); background-repeat: no-repeat;"></td>
+            <td class="filler" readonly></td>
+            <td readonly></td>
+            <td readonly style="background-image: url(score.gif); background-repeat: no-repeat;"></td>
+          </tr>
+          <tr>
+            <td readonly id="labelones" style="background-image: url(ones0.gif); background-repeat: no-repeat;"></td>
+            <td class="clickable" id="ones" name="scoring" onclick="saveScore(this.id, this.innerHTML, true)"></td>
+            <td class="filler" readonly></td>
+            <td readonly id="label3kind"style="background-image: url(3kind0.gif); background-repeat: no-repeat;"></td>
+            <td class="clickable" id="3kind" name="scoring"onclick="saveScore(this.id, this.innerHTML, false)"></td>
+          </tr>
+          <tr>
+            <td readonly id="labeltwos"style="background-image: url(twos0.gif); background-repeat: no-repeat;"></td>
+            <td class="clickable" id="twos" name="scoring" onclick="saveScore(this.id, this.innerHTML, true)"></td>
+            <td class="filler" readonly></td>
+            <td readonly id="label4kind"style="background-image: url(4kind0.gif); background-repeat: no-repeat;"></td>
+            <td class="clickable" id="4kind" name="scoring" onclick="saveScore(this.id, this.innerHTML, false)"></td>
+          </tr>
+          <tr>
+            <td readonly id="labelthrees" style="background-image: url(threes0.gif); background-repeat: no-repeat;"></td>
+            <td class="clickable" id="threes" name="scoring" onclick="saveScore(this.id, this.innerHTML, true)"></td>
+            <td class="filler" readonly></td>
+            <td readonly id="labelfullHouse" style="background-image: url(fullHouse0.gif); background-repeat: no-repeat;"></td>
+            <td class="clickable" id="fullHouse" name="scoring" onclick="saveScore(this.id, this.innerHTML, false)"></td>
+          </tr>
+          <tr>
+            <td readonly id="labelfours" style="background-image: url(fours0.gif); background-repeat: no-repeat;"></td>
+            <td class="clickable" id="fours" name="scoring" onclick="saveScore(this.id, this.innerHTML, true)"></td>
+            <td class="filler" readonly></td>
+            <td readonly id="labelsmallStraight" style="background-image: url(smallStraight0.gif); background-repeat: no-repeat;"></td>
+            <td class="clickable" id="smallStraight" name="scoring" onclick="saveScore(this.id, this.innerHTML, false)"></td>
+          </tr>
+          <tr>
+            <td readonly id="labelfives" style="background-image: url(fives0.gif); background-repeat: no-repeat;"></td>
+            <td class="clickable" id="fives"  name="scoring"onclick="saveScore(this.id, this.innerHTML, true)"></td>
+            <td class="filler" readonly></td>
+            <td readonly id="labellargeStraight" style="background-image: url(largeStraight0.gif); background-repeat: no-repeat;"></td>
+            <td class="clickable" id="largeStraight" name="scoring" onclick="saveScore(this.id, this.innerHTML, false)"></td>
+          </tr>
+          <tr>
+            <td readonly id="labelsixes" style="background-image: url(sixes0.gif); background-repeat: no-repeat;"></td>
+            <td class="clickable" id="sixes" name="scoring" onclick="saveScore(this.id, this.innerHTML, true)"></td>
+            <td class="filler" readonly></td>
+            <td readonly id="labelyahtzee" style="background-image: url(yahtzee0.gif); background-repeat: no-repeat;"></td>
+            <td class="clickable" id="yahtzee" name="scoring" onclick="saveScore(this.id, this.innerHTML, false)"></td>
+          </tr>
+          <tr>
+            <td readonly id="labelsub" style="background-image: url(sub0.gif); background-repeat: no-repeat;"></td>
+            <td id="sub"readonly></td>
+            <td class="filler" readonly></td>
+            <td readonly id="labelchance" style="background-image: url(chance0.gif); background-repeat: no-repeat;"></td>
+            <td class="clickable" id="chance" name="scoring" onclick="saveScore(this.id, this.innerHTML, false)"></td>
+          </tr>
+          <tr>
+            <td readonly id="labelbonus" style="background-image: url(bonus0.gif); background-repeat: no-repeat;"></td>
+            <td id="bonus" readonly></td>
+            <td class="filler" readonly></td>
+            <td class ="filler" readonly></td>
+            <td class="filler" readonly></td>
+          </tr>
+          <tr>
+            <td colspan="3" readonly style="background-image: url(grandTotal.gif); background-repeat: no-repeat;"></td>
+            <td colspan="2" id="grandTotal" readonly></td>
+        </table>
+      </div>
+    </form>
+      <br />
+      <div id="diceMenu">
+        <table id="dice">
+          <th colspan="5">Select the dice to keep.</th>
+          <tr>
+            <form name="currentRoll">
+            <td name="dice" id="d1"><img id="img1" src="d0.jpg" onclick="document.getElementById('r1').checked = !document.getElementById('r1').checked"/></td>
+            <td name="dice" id="d2"><img id="img2" src="d0.jpg" onclick="document.getElementById('r2').checked = !document.getElementById('r2').checked"/></td>
+            <td name="dice" id="d3"><img id="img3" src="d0.jpg" onclick="document.getElementById('r3').checked = !document.getElementById('r3').checked"/></td>
+            <td name="dice" id="d4"><img id="img4" src="d0.jpg" onclick="document.getElementById('r4').checked = !document.getElementById('r4').checked"/></td>
+            <td name="dice" id="d5"><img id="img5" src="d0.jpg" onclick="document.getElementById('r5').checked = !document.getElementById('r5').checked"/></td>
+            </form>
+          </tr>
+          <tr style="text-align:center;">
+            <form name="reRollers">
+            <td><input type="checkbox" name="reRoll" id="r1" value="1"/></td>
+            <td><input type="checkbox" name="reRoll" id="r2" value="2"/></td>
+            <td><input type="checkbox" name="reRoll" id="r3" value="3"/></td>
+            <td><input type="checkbox" name="reRoll" id="r4" value="4"/></td>
+            <td><input type="checkbox" name="reRoll" id="r5" value="5"/></td>
+            </form>
+          </tr>
+          <tr>
+            <td id="rollCount" colspan="2">Roll Count: 0/3</td>
+            <td colspan="1"><input type="button" value="Roll" name="roll" id="roll" onclick="roll(), getRollCount()" /></td>
+            <td colspan="2" id="turnCount">Turn Count: 0</td>
+          </tr>
+          <tr>
+            <td colspan="5">To roll, click "Roll" or press 'r' on the keyboard</td>
+          </tr>
+        </table>
+
+        <div id="hiddenButtons" hidden="true">
+          <button id="reset" onclick="location.reload()">New Game</button>
+          <br />
+          <br />
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

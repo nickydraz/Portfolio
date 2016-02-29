@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link type="text/css" rel="stylesheet" href="loan.css">
+		<title>Loan Repayment Calculator</title>
+		
+		<script>
+			
+			function calc(amount, intRate, type, duration, pmtRate)
+			{	
+				//Derived variables
+				var periodRate = intRate/pmtRate;
+				var nbrPmts = pmtRate * duration;
+				var periodRatePlus1 = 1 + periodRate;
+				var denominator = 1 - (1/Math.pow(periodRatePlus1, nbrPmts));
+
+				paymentAmt = (Math.round((amount * (periodRate / denominator)) * 100) / 100);
+				
+				//format text on webpage depending on duration of loan
+				if (duration >= 1 && duration <= 5)
+				{
+					document.getElementById("payAmt").innerHTML = '<p style="color:red;">Estimated Payment Amount: $' + paymentAmt + '</p>';
+				}
+				else if (duration >= 6 && duration <= 10)
+				{
+					document.getElementById("payAmt").innerHTML = '<p style="color:green;">Estimated Payment Amount: $' + paymentAmt + '</p>';
+				}
+				else
+				{
+					document.getElementById("payAmt").innerHTML = '<p style="color:blue;">Estimated Payment Amount: $' + paymentAmt + '</p>';
+				}
+				return paymentAmt;
+			}//end function
+			
+			//Ensure data is entered and that nothing is negative
+			function validate(amount, prime, type, duration, pmtRate)
+			{
+				//String containing any error messages created
+				alertString = "";
+				
+				if (amount == "" || amount < 0)
+				{
+					alertString += "Please enter a valid amount.\n\n";
+				}
+				
+				if (prime == "" || prime < 0)
+				{
+					alertString += "Please enter a valid prime rate.\n\n";
+				}
+				
+				if (duration === "" || duration < 0)
+				{
+					alertString += "Please enter a valid loan duration.";
+				}
+				
+				if (alertString == "")
+				{
+					validate2(amount, prime, type, duration, pmtRate);
+				}
+				else 
+				{
+					alert(alertString);
+				}
+			}//end function
+			
+			//Validate that the data entered is valid for each type of loan. 
+			function validate2(amount, prime, type, duration, pmtRate)
+			{
+				var alertString = "";
+				
+				if (type == "residential")
+				{
+					if (amount > 500000)
+					{
+						alertString += "Please enter an amount below $500,000 for a residential loan.\n\n";
+					}
+					
+					if (duration > 30)
+					{
+						alertString += "Please enter a loan duration below 30 years for a residential loan.";
+					}
+					
+					//Interest rate reduced by 0.5% if less than half the max loan length
+					if (duration < 15)
+					{
+						intRate = (prime + .03);
+						intRate = intRate - .005;
+					}
+					else
+					{
+						intRate = prime + .03;
+					}
+				}
+				
+				if (type == "commercial")
+				{
+					if (amount > 15000000)
+					{
+						alertString += "Please enter an amount below $15,000,000 for a commercial loan.\n\n";
+					}
+					
+					if (duration > 10)
+					{
+						alertString += "Please enter a loan duration below 10 years for a commercial loan.";
+					}
+					
+					//Interest rate reduced by 0.5% if less than half the max loan length
+					if (duration < 5)
+					{
+						intRate = (prime + .02) - .005;
+					}
+					else
+					{
+						intRate = prime + .02;
+					}
+				}
+				
+				if (type == "farm")
+				{
+					if (amount > 1500000)
+					{
+						alertString += "Please enter an amount below $1,500,000 for a farm loan.\n\n";
+					}
+					
+					if (duration > 25)
+					{
+						alertString += "Please enter a loan duration below 25 years for a farm loan.";
+					}
+					
+					//Interest rate reduced by 0.5% if less than half the max loan length
+					if (duration < 12.5)
+					{
+						intRate = (prime + .015) - .005;
+					}
+					else 
+					{
+						intRate = prime + .015;
+					}
+				}
+				
+				
+				if (alertString == "")
+				{
+					calc(amount, intRate, type, duration, pmtRate);
+				}
+				else
+				{
+					alert(alertString);
+				}
+			}//end function
+			
+		</script>
+	
+    </head>    
+    <body>
+    <div id="body">
+    <div id="container" style="margin: 0 auto;">
+    	<h1 align=center>Loan Payment Estimator</h1>
+    	<form style="text-align: left;	">
+        	Loan Amount: <input type="number" name="loanAmount" id="loanAmount" value="" style="text-align:right"/><br />
+        	Current Prime Rate: <input type="number" name="primeRate" id="primeRate" value="" style="text-align:right"/>%<br />
+            Type Of Loan: 
+            	<select name="loanType" id="loanType">
+                	<option value="residential">Residential</option>
+                    <option value="commercial">Commercial</option>
+                    <option value="farm">Farm</option>
+                </select>
+            <br />
+           	Duration of Loan: <input type="number" name="duration" id="duration" value="" style="text-align:right"/><br />
+            Payment Rate: 
+            	<select name="paymentRate" id="paymentRate">
+        			<option value="12">Monthly</option>
+                    <option value="26">Biweekly</option>
+                </select>
+        </form>
+		
+		<div id="payAmt"><p>Estimated Payment Amount: </p></div>
+		<center>
+        <input type="button" name="submit" id="submit" value="Compute" onclick="validate(document.getElementById('loanAmount').value, document.getElementById('primeRate').value / 100	, document.getElementById('loanType').value, document.getElementById('duration').value, document.getElementById('paymentRate').value)" />
+        <input type="button" name="calculator" id="submit" value="Calculator" onclick="window.open('calculator.html', '_popup', 'height=250, width=215')" /></center>
+       </div>
+    </div>
+    </body>
+</html>

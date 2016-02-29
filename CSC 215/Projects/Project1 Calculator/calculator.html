@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Calculator</title>
+        
+        <link rel="stylesheet" type="text/css" href="calcStyle.css" />
+           
+		<script>
+			// Coded by Nicholas Drazenovic
+			// Code for Calculator
+			
+			//Calculator state variables
+			var op1, op2, pendingOp;
+			inNumber = true; //inNumber is a boolean that 
+							 //that determines if entering a number
+			function keyPress(key)
+			{
+				//Switch to determine which key was pressed
+				switch(key)
+				{
+					case '0':
+					case '1':
+					case '2':
+					case '3':
+					case '4':
+					case '5':
+					case '6':
+					case '7':
+					case '8':
+					case '9': 
+						//if a number key, update the display
+						if ((document.getElementById("display").value) === "0" || !inNumber)
+						{
+							document.getElementById("display").value = key;
+							inNumber = true;
+						}
+						else if (inNumber)
+						{
+							if (document.getElementById("display").value.length != 8)
+								document.getElementById("display").value = document.getElementById("display").value + key;	
+						} //end case 0-9
+						break;
+						
+					case '/':
+					case '*':
+					case '+':
+					case '-':
+						//if an operator, determine if there is a pending op and evaluate
+							// and/or update the display as needed
+						if (pendingOp != "" && pendingOp != null)
+						{
+							op2 = document.getElementById("display").value;
+							expr = op1 + ' ' + pendingOp + ' ' + op2;
+							document.getElementById("display").value = eval(expr);
+						}
+						op1 = document.getElementById("display").value;
+						pendingOp = key;
+						inNumber = false;
+						break;
+					case '=':
+						//evaluate and update the display
+						op2 = document.getElementById("display").value;
+						inNumber = false;
+						expr = op1 + ' ' + pendingOp + ' ' + op2;
+						document.getElementById("display").value = eval(expr);
+						pendingOp = "";
+						op1 = expr;
+						op2 = "";
+						break;
+					case 'c':
+						//clear the display and variables
+						op1 = "";
+						op2 = "";
+						pendingOp = "";
+						document.getElementById("display").value = "0";
+						break;
+					case 'u':
+						//unary operator; perform a bit flip
+						if (document.getElementById("display").value.charAt(0) == '-')
+						{
+							document.getElementById("display").value = -document.getElementById("display").value;
+						}
+						else
+						{
+							document.getElementById("display").value = "-" + document.getElementById("display").value;	
+						}
+						
+						break;
+					case '<':
+						//delete right most character in display
+						document.getElementById("display").value = document.getElementById("display").value.substr(0, (document.getElementById("display").value.length - 1));
+						if (document.getElementById("display").value == "")
+							document.getElementById("display").value = "0";
+						break;
+					case 'o':
+						//Close the calculator window
+						window.close();
+				}
+			}
+				
+			
+        </script>
+    
+    </head>
+    
+    <body>
+    
+    	<div id="container">
+        	<h3>Calculator</h3>
+			<div style="text-align:right;">
+				<input type="text" name="display" id="display" value="0" size="15" maxlength="15" align="right" readonly /><!--
+			--></div>
+			<div id="buttons">
+				<button type="button" name="off" value="o" onclick="keyPress(this.value)" readonly>Off</button><!-- 
+				--><button type="button" name="clear" value="c" onclick="keyPress(this.value)" readonly>Cle</button><!-- 
+				--><button type="button" name="backspace" value="<" onclick="keyPress(this.value)" readonly><</button><!-- 
+				--><button type="button" name="divide" value="/" onclick="keyPress(this.value)" readonly style="background-color: orange;">&divide;</button><!--
+				--><br />
+                <button type="button" name="seven" value="7" onclick="keyPress(this.value)" readonly>7</button><!--
+				--><button type="button" name="eight" value="8" onclick="keyPress(this.value)" readonly>8</button><!--
+				--><button type="button" name="nine" value="9" onclick="keyPress(this.value)" readonly>9</button><!--
+				--><button type="button" name="mult" value="*" onclick="keyPress(this.value)" readonly style="background-color: orange;">x</button><!--
+				--><br />
+				<button type="button" name="four" value="4" onclick="keyPress(this.value)" readonly>4</button><!--
+				--><button type="button" name="five" value="5" onclick="keyPress(this.value)" readonly>5</button><!--
+				--><button type="button" name="six" value="6" onclick="keyPress(this.value)" readonly>6</button><!--
+				--><button type="button" name="sub" value="-" onclick="keyPress(this.value)" readonly style="background-color: orange;">-</button><!--
+				--><br />
+				<button type="button" name="one" value="1" onclick="keyPress(this.value)" readonly>1</button><!--
+				--><button type="button" name="two" value="2" onclick="keyPress(this.value)" readonly>2</button><!--
+				--><button type="button" name="three" value="3" onclick="keyPress(this.value)" readonly>3</button><!--
+				--><button type="button" name="add" value="+" onclick="keyPress(this.value)" readonly style="background-color: orange;">+</button><!--
+				--><br />
+				<button type="button" name="zero" value="0" onclick="keyPress(this.value)" readonly style="width:80px;">0</button><!--
+				--><button type="button" name="unary" value="u" onclick="keyPress(this.value)" readonly>+/-</button><!--
+				--><button type="button" name="equals" value="=" onclick="keyPress(this.value)" readonly style="background-color: orange;">=</button><!--
+				--><br />
+			</div>
+        </div>
+    </body>
+</html>

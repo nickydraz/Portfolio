@@ -1,0 +1,78 @@
+<!-- Coded By Nicholas Drazenovic -->
+<html>
+	<head>
+		<title>Tip Calculator</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<script>
+			function calcTip()
+			{
+				amount = document.getElementById("amount").value;
+				tipRate = document.getElementById("rate").value;
+				tipDue = amount * tipRate;
+				document.getElementById("due").innerHTML = "<br /> Tip Due = " + tipDue;
+			}
+
+			function reset()
+			{
+				document.getElementById("amount").value = "";
+				document.getElementById("rate").value = "";
+				document.getElementById("due").innerHTML = "<br /> Tip Due = ";
+			}
+
+			function validate()
+			{
+				amount = document.getElementById("amount").value;
+				valid = true;
+
+				if (amount === "" || amount === null)
+				{
+					alert("Please enter an 'Amount'");
+					valid = false;
+				}
+				else if (amount < 0)
+				{
+					alert("Please enter a valid 'Amount' above 0")
+					valid = false;
+				}
+
+
+				rate = document.getElementById("rate").value;
+				if (rate === "" || rate === null)
+				{	
+					alert("Please enter a 'Tip Rate'");
+					valid = false;
+				}
+				else if (rate < 0 || rate > 1)
+				{
+					alert("Please enter a valid 'Tip Rate' between 0 and 1")
+					valid = false;
+				}
+
+				if (valid)
+					calcTip();
+				else
+					reset();
+			}
+		</script>
+	</head>
+	
+	<body>
+		<div align="center">
+			<table>
+				<tr id="title"><th id="titleText"><h2>Tip Maker</h2></th></tr>
+				<div align="left">
+					<tr><td><br />Amount &nbsp;= <input type="input" value="" id="amount"/></td></tr>
+					<tr><td><br />Tip Rate = <input type="input" value="" name="rate" id="rate"/></td></tr>
+					<tr><td id="due"><br />Tip Due = </td></tr>
+					<br />
+					<tr><td align="center"><br />
+						<input type="button" name="calc" id="calc" value="Calc Tip" onclick="validate()" />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="button" name="reset" id="reset" value="Reset" onclick="reset()" />
+					</td></tr>
+				</div>
+			</table>
+		</div>
+	</body>
+</html>

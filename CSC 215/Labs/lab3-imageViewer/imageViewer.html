@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<script>
+
+			var prevImg;
+
+			function clickEvent(imgLink)
+			{
+				prevImg = "";
+				document.getElementById('largeImage').src = imgLink;
+			}
+
+			function mouseHover(imgLink)
+			{
+				prevImg = document.getElementById('largeImage').src;
+				document.getElementById('largeImage').src = imgLink;
+			}
+
+			function mouseLeave(imgLink)
+			{
+				if (prevImg !== "")
+					document.getElementById('largeImage').src = prevImg;
+			}
+		</script>
+
+		<link rel="stylesheet" type="text/css" href="image.css" />
+	</head>
+
+	<body>
+		<div>
+			<h1>Image Viewer</h1>
+
+			<img src="ireland1-600.jpg" width="600" height="450" alt="ireland1-600" id="largeImage">
+			<table style="margin: 0 auto;">
+				<tr>
+					<td><img src="ireland1-200.jpg" width="200" height="150" alt="ireland1-200" onClick="clickEvent('ireland1-600.jpg')" onMouseOver="mouseHover('ireland1-600.jpg')" onMouseOut="mouseLeave()"></td>
+					<td><img src="ireland2-200.jpg" width="200" height="150" alt="ireland2-200" onClick="clickEvent('ireland2-600.jpg')" onMouseOver="mouseHover('ireland2-600.jpg')" onMouseOut="mouseLeave()"></td>
+					<td><img src="ireland3-200.jpg" width="200" height="150" alt="ireland3-200" onClick="clickEvent('ireland3-600.jpg')" onMouseOver="mouseHover('ireland3-600.jpg')" onMouseOut="mouseLeave()"></td>
+					<td><img src="ireland4-200.jpg" width="200" height="150" alt="ireland4-200" onClick="clickEvent('ireland4-600.jpg')" onMouseOver="mouseHover('ireland4-600.jpg')" onMouseOut="mouseLeave()"></td>
+				</tr>
+			</table>
+		</div>
+    </body>
+</html>
