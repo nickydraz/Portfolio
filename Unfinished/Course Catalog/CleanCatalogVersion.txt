@@ -1,0 +1,2868 @@
+============================================================
+*Accounting (ACC) 
+
+
+190 Topics in Accounting (1.00-3.00) 
+
+201 Accounting Principles I/Financial (3.00) 
+
+202 Accounting Principles II/Managerial (3.00) 
+
+290 Topics in Accounting (1.00-3.00) 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+307 Cost Accounting (3.00) 
+
+310 Accounting Information Systems (3.00) 
+
+317 Intermediate Accounting I (3.00) 
+
+318 Intermediate Accounting II (3.00) 
+
+319 Intermediate Accounting III (3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+430 Taxes I (3.00) 
+
+431 Taxes II (3.00) 
+
+440 Advanced Accounting (3.00) 
+
+460 Accounting For Not-For-Profits (3.00) 
+
+470 Auditing and Attestation (3.00) 
+
+480 Seminar: Managerial Accounting (3.00) 
+
+490 Seminar: Financial Accounting (3.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*Art (ART) 
+
+
+100 Introduction to Visual Literacy (3.00) 
+
+105 Art Through Photography (2.00) 
+
+107 2-Dimensional Design (3.00) 
+
+109 Image Processing (1.50) 
+
+110 3-Dimensional Design (3.00) 
+
+117 Silver Photography I (3.00) 
+
+120 Drawing I (3.00) 
+
+130 Painting I (3.00) 
+
+135 Watercolor Painting (3.00) 
+
+140 Oriental Brush Painting (3.00) 
+
+141 Designing Graphics (1.50) 
+
+143 Beginning Typography (3.00) 
+
+150 Ceramics I (3.00) 
+
+205 Digital Photography (3.00) 
+
+215 Sculpture (3.00) 
+
+220 Drawing II (3.00) 
+
+225 Figure Drawing I (3.00) 
+
+230 Painting II (3.00) 
+
+245 Art and Culture (1.50) 
+
+250 Ceramics II (3.00) 
+
+261 Chicago Art and Architecture (3.00) 
+
+264 Global Art Survey (3.00) 
+
+270 Aesthetics (3.00) 
+
+272 Art History I: Prehistoric to Medieval Art (3.00) IAI: F2 901 
+
+274 Art History II: Renaissance to Rococo Art (3.00) IAI: F2 902 
+
+276 Art History III: Late 18th Century IAI: F2 902 to Contemporary Art (3.00) 
+
+280 Printmaking I (3.00) 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+315 Sculpture II (3.00) 
+
+325 Figure Drawing II (3.00) 
+
+340 Advanced Painting I (3.00) 
+
+341 Advanced Painting II (3.00) 
+
+343 Digital Illustration and Prepress Production (3.00) 
+
+344 2-Dimensional Computer Graphics and Animation (1.50) 
+
+345 3-Dimensional Computer Graphics and Animation (3.00) 
+
+350 Advanced Studies I (3.00) 
+
+351 Advanced Studies II (3.00) 
+
+355 Ceramics III (3.00) 
+
+360 Art Theory and Criticism (3.00) 
+
+370 Art of the Nineteenth Century (3.00) 
+
+371 African-American Art (3.00) 
+
+374 Art of the Twentieth Century I: 1900-1950 (3.00) 
+
+376 Art of the Twentieth Century II: 1950-Contemporary (3.00) 
+
+380 Printmaking II (3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00 
+
+442 Advanced Painting III (3.00) 
+
+452 Advanced Studies III (3.00) 
+
+455 Ceramics IV (3.00) 
+
+460 Studio Seminar (3.00) 
+
+470 Art History Seminar (3.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*The Division of Arts and Letters (ARL) 
+
+
+297 Internship (0.00-9.00) 299 Independent Study (1.00-9.00) 385 Symposium (3.00) 
+
+397 Internship (0.00-9.00) 399 Independent Study (1.00-9.00) 485 Symposium (3.00) 
+
+497 Internship (0.00-9.00) 499 Independent Study (1.00-9.00) 
+
+============================================================
+*Biochemistry (BCM) 
+
+
+140 Nutrition (3.50) 
+
+365 Biochemistry (3.75) 
+
+465 Advanced Biochemistry (3.75) 
+
+============================================================
+*Biology (BIO) 
+
+
+100 Principles of Biology (3.50) IAI: L1 900L 
+
+104 Human Biology (3.50) 
+
+106 Introduction to Environmental Science (3.50) 
+
+108 Water, Food, and Sex (3.50) 
+
+109 Genes, Genomes, and Genethics (3.50) 
+
+120 Topics in Modern Biology (3.00-3.50) 
+
+147 Anatomy and Physiology (3.75) 
+
+151 Biological Investigations I (4.00) 
+
+152 Biological Investigations II (4.00) 
+
+200 Cellular Biology (3.75) 
+
+201 Botany (3.75) 
+
+202 Zoology (3.75) 
+
+216 Ecology - How Organisms Interact with their Environment (3.75) 
+
+222 Estuarine Ecology (2.00) 
+
+152. 
+
+228 Desert Ecology (2.00) 
+
+242 Introduction to Bioinformatics (3.00) 
+
+260 Genetics (3.75) 
+
+290 ACCA Seminar in Organismal Biology and Ecology (0.00) 
+
+291 ACCA Seminar in Molecular and Cellular Biology (0.00) 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+300 Human Sexuality: A Clash of Values (3.00) 
+
+301 Plant Physiology (3.75) 
+
+302 Animal Physiology (3.75) 
+
+3.75 credit hours of 200-level biology and CHM 141. 
+
+305 Animal Behavior (4.00) 
+
+310 Vertebrate Biology (3.75) 
+
+340 Microbiology (4.00) 
+
+260. 
+
+360 The Molecular Biology of Cancer (3.75) 
+
+395 Directed Research (0.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+400 Evolution (3.50) 
+
+410 Microscopic Anatomy (3.75) 
+
+416 Environmental Biology (3.75) 
+
+3.75 credit hours of 300-level biology. 
+
+430 Developmental Biology (3.75) 
+
+440 Virology and Immunology (3.00) 
+
+475 Seminar (0.00-1.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*Chemical Microscopy (CMC) 
+
+
+400 Modern Polarized Light Microscopy (3.00) 
+
+405 Techniques of Optical Crystallography (3.00) 
+
+410 Scanning Electron Microscopy (3.00) 
+
+411 Advanced Imaging Techniques for Scanning Electron Microscopy (2.00) 
+
+415 Pharmaceutical Materials and Contaminants (3.00) 
+
+416 USP {788} Particulate Matter in Injections (0.50) 
+
+417 Freeze-Dry Microscopy (2.00) 
+
+420 Transmission Electron Microscopy (2.00) 
+
+430 Microscopic Particle Handling: Particle Isolation, Manipulation and Mounting (3.00) 
+
+431 Sample Preparation: Pharmaceutical and Medical Devices (1.50) 
+
+432 Sample Preparation: Sperm Isolation (0.50) 
+
+433 Sample Preparation: Polymers, Paints and Coatings (1.50) 
+
+434 Sample Preparation: Forensics and Trace Evidence (1.50) 
+
+435 Forensic Soil Examination I (3.00) 
+
+440 White Powder Unknowns I (3.00) 
+
+450 Forensic Trace Evidence Particles (3.00) 
+
+451 An Introduction to Forensic Document Examination: Basic Theory and Practical Applications (1.50) 
+
+452 Fundamentals of Microscopy for Forensic Document Examiners: Basic Theory and Practical Applications (1.50) 
+
+455 Pigments Identification(3.00) 
+
+456 Conservation Materials (3.00) 
+
+460 Infrared Microscopy (2.00) 
+
+470 Raman Microscopy (2.00) 
+
+490 Fiber Identification (3.00) 
+
+495 Forensic Hair Comparison (3.00) 
+
+============================================================
+*Chemistry (CHM) 
+
+
+245. *Chemistry majors must complete a research project by taking one of CHM 405, 410, 420, 425, 480, or BCM 465, or by participating in a non-credit research program (including off-campus programs). Each student presents the results of this research in the chemistry seminar course, CHM 475. CHM 475 is taken over three (usually nonconsecutive) terms. During the first two terms the student participates as an observer and questioner and enrolls in CHM 475 for no credit. 
+
+100 Chemistry Today (3.50) 
+
+141 General Chemistry I: Bio-organic Molecules (3.75) 
+
+142 General Chemistry II: Environmental Chemistry (4.00) 
+
+190 ACCA Seminar (0.00) 
+
+205 Descriptive Inorganic Chemistry (4.00) 
+
+210 Chemical Analysis (3.75) 
+
+215 Organic Chemistry I (4.00) 
+
+216 Organic Chemistry II (4.00) 
+
+220 Organic Chemistry I (2.75) 
+
+221 Organic Chemistry II (2.75) 
+
+222 Organic Chemistry III (3.00) 
+
+272 Spectral Interpretation I (1.00) 
+
+273 Spectral Interpretation II (1.00) 
+
+299 Independent Study (1.00-9.00) 
+
+340 Thermodynamics (4.00) 
+
+341 Kinetics, Quantum Theory, & Spectroscopy (4.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+405 Advanced Inorganic Chemistry (3.75) 
+
+410 Instrumental Analysis (4.00) 
+
+420 Advanced Organic Chemistry (3.75) 
+
+425 Organometallic Chemistry (3.75) 
+
+430 Special Topics (1.00-3.75) 
+
+475 Seminar (0.00-1.00) 
+
+480 Research (1.00-6.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*Computer Science (CSC) 
+
+
+160 Computer Science I (3.50) 
+
+161 Computer Science II (3.50) 
+
+171 Elements of Java I (1.50) 
+
+172 Elements of Java II (1.50) 
+
+210 Data Structures and Algorithms (3.00) 
+
+215 Introduction to Web Programming (3.00) 
+
+220 Computer System Concepts (3.00) 
+
+161. Recommended: CSC 230. 
+
+225 Web and Animation Programming with Flash (1.50) 
+
+230 Discrete Structures I (3.00) 
+
+231 Discrete Structures II (3.00) 
+
+242 Introduction to Bioinformatics (3.00) 
+
+297 Internship (0.00-4.00) 
+
+299 Independent Study (1.00-4.00) 
+
+306 Software Development in C++ (3.00) 
+
+340 Algorithms (3.00) 
+
+355 Windows and .NET Programming (3.00) 
+
+397 Internship (0.00-4.00) 
+
+399 Independent Study (1.00-4.00) 
+
+415 Web Applications (3.00) 
+
+420 Operating Systems I (3.00) 
+
+425 Computer Graphics (3.00) 
+
+427 Linux Programming (3.00) 
+
+435 Windows Game Programming (3.00) 
+
+436 Human Computer Interaction (3.00) 
+
+453 Systems Analysis (3.00) 
+
+460 Database Management Systems (3.00) 
+
+464 Data Mining (3.00) 
+
+469 Computer Networks (3.00) 
+
+479 Computer and Network Security (3.00) 
+
+487 Parallel Processing and Concurrent Programming(3.00) 
+
+490 Special Topics (3.00) 
+
+495 Capstone Seminar (3.00) 
+
+497 Internship (0.00-4.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*East Asian Studies (EAS) 
+
+
+165 Introduction to East Asia (3.00) 	IAI: S2 908N 
+
+292 Japanese Culture and Society (3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*Economics (ECN) 
+
+
+100 Economics of Social Issues (3.00) IAI: S3 900 
+
+210 History of Economic Thought (3.00) 
+
+241 Business and Economic Statistics (3.00) 
+
+250 Microeconomic Principles (3.00) IAI: S3 902 
+
+252 Macroeconomic Principles (3.00) IAI: S3 901 
+
+290 Special Topics: Contemporary Issues in Economics (1.00-3.00) 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+310 Economics of Sports (3.00) 
+
+320 Industrial Structure and Public Policy (3.00) 
+
+324 International Political Economy (3.00) 
+
+330 Labor Economics (3.00) 
+
+340 International Economics (3.00) 
+
+350 Public Finance and Social Welfare (3.00) 
+
+100. 
+
+360 Money and Banking (3.00) 
+
+390 Special Topics: Contemporary Issues in Economics (1.00-3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+423 Intermediate Microeconomics (3.00) 
+
+427 Intermediate Macroeconomics (3.00) 
+
+440 Mathematical Economics (3.00) 
+
+445 Econometrics (3.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*The Division of Economics and Business (ECB) 
+
+
+110 Business and Society (3.00) 
+
+190 Special Topics (1.00-3.00) 
+
+200 SIFE, Leadership Experiential (1.50) 
+
+390 Special Topics (1.00-3.00) 
+
+490 Special Topics (1.00-3.00) 
+
+============================================================
+*Education (EDN) 
+
+
+1)  Complete an application.  
+
+2)  Successfully complete EDN 101 with a gra de of “C” or higher.*  
+
+3)  Students  with  a  supplemental major  in  Secondary  Education  must  
+
+4) 	Students with a supplemental major in Secondary Education must earn a 
+
+2.500 grade point average (GPA) in the major, and a 2.750 GPA overall and in the professional education courses. This includes course work from all institutions attended. 
+
+5) 	Students majoring in Elementary Education must successfully complete a minimum of nine credit hours in the major beyond PSY 100, with grades of “C” or higher.* 
+
+6) 	Students majoring in Elementary Education must earn a 2.750 grade point average (GPA) overall, in the major, and in all the professional education courses. This includes course work from all institutions attended. 
+
+7) 	Pass the Illinois Test of Basic Skills (300) or the Illinois Test of Academic Proficiency (TAP) or have taken ACT with writing test with a composite score of 22. 
+
+8) 	Declare a major in Elementary Education or supplemental major in 
+
+9) 	Submit a four year plan signed by the student’s assigned advisor. 
+
+10) Submit the student self-assessment of dispositions document. 
+
+11) Submit the Professional Dispositions document completed by a faculty 
+
+============================================================
+* 	Note: Grades of “C-” do not meet the minimum standard of “C.” 
+
+
+1. 	
+
+2. 	
+
+3. 	
+
+4. 
+
+1. 	
+
+2. 	
+
+3. 	
+
+4. 	
+
+5. 	
+
+6. 	
+
+7. 	
+
+3.50 additional hours of lab science are also required for a total of 10 hours of science (including at least 3.50 hours of biology with a lab and at least 3.50 hours of physical science with a lab) 
+
+150 hours minimum through methods courses with field experience 
+
+15 hours completed in each EDN 101 and EDN 330 
+
+1. 	
+
+2. 	
+
+3. 
+
+============================================================
+*Acceptance into the Teacher Education Program is a prerequisite. 
+
+
+90-100 hours minimum completed in EDN 201 and EDN 371 or EDN 373 30 hours completed in EDN 101 and EDN 330 25 hours completed in EDN 361 Music and Art students only: 10 hours (to meet the 155 hour requirement through approved volunteer service in schools or other field experiences) 
+
+1. 	Complete the minimum number of credit hours in the major: art, English, mathematics, music, physical education, science (designation in biology, chemistry, or physics), social science (designation in history), or foreign language (French, German or Spanish). 
+
+2. 	Students must follow the guidelines of the NCC approved certification program. 
+
+1. 	
+
+2. 	
+
+3. 	
+
+4. 	
+
+5. 	
+
+1. 	
+
+2. 	
+
+155 (secondary/K-12) or 180 (elementary) field experience hours, prior to student teaching/residency. 
+
+3. 	
+
+4. 	
+
+5. 	
+
+6. 	
+
+7. 	
+
+============================================================
+* 	Note: Grades of “C-” do not meet the minimum standard of “C.” 
+
+
+19 credit hours: ENG 370 Language and Linguistics MCL 380 Theoretical Foundations of Teaching ESL/Bilingual Students MCL 382 Cross-Cultural Studies for Teaching English Language 
+
+101 Teaching Today (3.00) 
+
+200 K-12 and High School Teaching I (3.00) 
+
+201 K-12 and High School Teaching I Field Experience (1.00) 
+
+211 Practicum in a Diverse School Setting (1.00) 
+
+228 Elementary Teaching I (3.00) 
+
+229 Elementary Teaching I Field Experience (0.50) 
+
+260 Literacy I - Introduction to K-8 Literature and Foundations of Literacy (3.00) 
+
+276 Foundations of Teaching Reading (1.50) 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+320 The Elementary Learning Environment (3.00) 
+
+362. 
+
+322 The High School Learning Environment (3.00) 
+
+324 Foundations for Teaching Mathematics in the Elemenatary School (3.00) 
+
+325 Elementary Mathematics Field Experience (0.50) 
+
+326 Elementary Teaching II (3.00) 
+
+327 Elementary Teaching II Field Experience (1.00) 
+
+330 Teaching Students with Special Learning Needs (3.00) 
+
+331 Elementary Art Methods (3.00) 
+
+332 Elementary Art Practicum (1.00) 
+
+333 Techniques in Middle/Secondary School Physical Education (3.00) 
+
+335 Computer Curricular Integration for Teachers K-12 (3.00) 
+
+338 Secondary Art Methods (3.00) 
+
+340 Techniques in Secondary Education — English (3.00) 
+
+342 Elementary/Secondary School Foreign Language (3.00) 
+
+371. 
+
+344 Techniques in Secondary Education — Mathematics (3.00) 
+
+346 Techniques in Secondary Education — Science (3.00) 
+
+348 Techniques in Secondary Education — Social Studies (3.00) 
+
+351 Elementary Music Education (3.00) 
+
+352 Practicum: Experience in Teaching Music (1.00) 
+
+353 Secondary School Music (3.00) 
+
+360 Content Reading (3.00) 
+
+361 Content Reading Field Experience (0.50) 
+
+362 Literacy II (3.00) 
+
+366 The Teaching of Young Adult Literature (3.00) 
+
+371 High School Field Experience (1.00) 
+
+372 Writing As It Relates to Reading (3.00) 
+
+373 Practicum: K-12 Methods/Techniques in Art and Music (1.00) 
+
+374 Content Reading Instruction in the Middle School (3.00) 
+
+381 Elementary/Secondary Field Experience (1.00) 
+
+383 Methods and Materials for Teaching English Language Learners in ESL/ Bilingual Programs (3.00) 
+
+384 Practicum in Methods of Teaching English Language Learners (1.00) 
+
+385 Assessment of the ESL/Bilingual Students (3.00) 
+
+386 Methods and Materials for Teaching English Language Learners in Bilingual Programs (3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+401 Elementary Assessment of Learning Education (3.00) 
+
+403 High School Assessment of Learning in Education (3.00) 
+
+411 Teacher Leadership in the Learning Environment (3.00) 
+
+430 Characteristics of Students with High Incidence Disabilities (3.00) 
+
+432 Methods of Teaching Students with High Incidence Disabilities (3.00) 
+
+434 Psychological Diagnosis and Educational Assessment of Children with Special Learning Needs (3.00) 
+
+436 Teaching Methods for Students with Special Learning Needs (1.50) 
+
+460 Literacy III (3.00) 
+
+461 Literacy III Field Experience (1.00) 
+
+462 Reading Assessment Tools and Strategies (3.00) 
+
+463 Diagnostic Reading Instruction (3.00) 
+
+462. 
+
+464 Practicum in Diagnostic Reading Instruction (1.00) 
+
+470 Pre-Residency Seminar (1.00) 
+
+480 Residency I (5.00) 
+
+481 Residency I Seminar (2.00) 
+
+482 Content-Based English-as-a-Second-Language Teaching and Learning (3.00) 
+
+485 Supervised Student Teaching (9.00) 
+
+490 Residency II (5.00) 
+
+491 Residency II Seminar (2.00) 
+
+497 Internship (0.00-9.00) 499 Independent Study (1.00-9.00) 
+
+============================================================
+*English (ENG) 
+
+
+46 credit hour minimum: ENG 196 Reading Literature ENG 203 English Literature to 1660 ENG 205 18th-Century Literature ENG 207 19th- and 20th-Century American Literature ENG 209 19th- and 20th-Century British Literature ENG 265 Style One of: 
+
+============================================================
+*Optional Literature Concentration 
+
+
+18 credit hours of electives at the 300- and 400-level must include at least 
+
+============================================================
+*Optional Writing Concentration 
+
+
+18 credit hours of electives at the 300- and 400-level must include at least 12 credit hours in writing. At least six credit hours must be 400-level writing courses. 
+
+43 credit hour minimum: 12 credit hours in literature to include: ENG 196 Reading Literature Nine additional credit hours selected from: 
+
+18 credit hours in journalism to include: 
+
+18 credit hours to include: 
+
+101 English as a Second Language I (3.00) 
+
+103 English as a Second Language II (3.00) 
+
+105 English as a Second Language III (1.00-3.00) 
+
+115 First-Year Writing (3.00) IAI: C1 900 
+
+125 First-Year Seminar (3.00) 
+
+128 College Humor Magazine Practicum (0.00-1.50) 
+
+125. 
+
+130 College Literary Magazine Practicum (0.00-1.50) 
+
+125. 
+
+132 College Newspaper Practicum (0.00-1.50) 
+
+196 Reading Literature (3.00) 
+
+200 Writing Across Media (3.00) 
+
+125. 
+
+203 English Literature to 1660 (3.00) 
+
+205 Eighteenth-Century Literature (3.00) 
+
+207 Nineteenth- and Twentieth-Century American Literature (3.00) 
+
+209 Nineteenth- and Twentieth-Century British Literature (3.00) 
+
+214 Children’s Literature (2.00) 
+
+216 Adolescent Literature (2.00) 
+
+220 News Writing (3.00) 
+
+240 Introduction to Film (3.00) IAI: F2 905 
+
+245 Literature, Science, and Culture (3.00) 
+
+250 News Editing (3.00) 
+
+260 Integrating Word and Image (3.00) 
+
+265 Style (3.00) 
+
+270 Writing, Rhetoric, and Culture (3.00) 
+
+275 Creative Writing (3.00) 
+
+280 Introduction to Women’s Literature (3.00) 
+
+285 Writing Theories and Practices (3.00) 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+301 Studies in American Literature (3.00) 
+
+303 Studies in British Literature (3.00) 
+
+305 Studies in Contemporary Literature (3.00) 
+
+307 Studies in Literature of Cultural Identity (3.00) 
+
+315 Advanced Writing (3.00) 
+
+325 News Reporting (3.00) 
+
+330 Multicultural Literature of North America (3.00) 
+
+335 Magazine Writing (3.00) 
+
+340 Global Films (3.00) 
+
+350 In Theory (3.00) 
+
+365 Writing Creative Nonfiction (3.00) 
+
+370 Language and Linguistics (3.00) 
+
+375 Writing Fiction (3.00) 
+
+377 Writing Poetry (3.00) 
+
+380 Global Literature (3.00) 
+
+390 Sacred Texts as Literature (3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+401 Seminar in Drama (3.00) 
+
+403 Seminar in Fiction (3.00) 
+
+350. 
+
+405 Seminar in Poetry (3.00) 
+
+407 Seminar in Selected Authors (3.00) 
+
+409 Seminar in Theory (3.00) 
+
+455 Writing in Technical & Professional Settings (3.00) 
+
+460 Seminar in Special Topics (3.00) 
+
+462 Writing for Social Change (3.00) 
+
+465 Advanced Creative Nonfiction — Multimedia (3.00) 
+
+475 Advanced Workshop in Creative Writing (3.00) 
+
+480 Senior Portfolio (1.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*Environmental Studies (ENV) 
+
+
+============================================================
+*When appropriate - consult with ENV program coordinator 
+
+
+106 Introduction to Environmental Science (3.50) 
+
+120 People and Nature (3.00) 
+
+225 Environmental Ethics (3.00) 
+
+248 American Environmental History (3.00) 
+
+300 Modern Environmental Issues (3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-3.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-3.00) 
+
+============================================================
+*Finance (FIN) 
+
+
+18 credit hours, including the following courses: 
+
+400-level. 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+350 Corporate Finance (3.00) 
+
+365 Theory of Interest (3.00) 
+
+370 Wealth Management (3.00) 
+
+385 International Finance (3.00) 
+
+390 Seminar: Special Topics in Finance (1.00-3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+400 Investments and Portfolio Management (3.00) 
+
+425 Financial Institutions (3.00) 
+
+350. 
+
+450 Advanced Corporate Finance (3.00) 
+
+475 Derivatives: Markets, Pricing and Applications(3.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*First Year Experience (FYE) 
+
+
+100 First Year Experience (1.00) 
+
+============================================================
+*Gender and Women’s Studies (GWS) 
+
+
+21 credit hours, including: 
+
+============================================================
+*Designated Topics Courses: Since the subject matter of topics courses changes from term to term, they only count toward the minor if specifically designated by the GWS committee. The topics listed above are a sampling of topics courses approved in the past and likely to be offered in the future. The topics of LEV 495 are determined in part by the student’s work/internship experiences, and thus need the approval of the GWS faculty to count toward the minor. 
+
+
+100 Women and Men in Society (3.00) 
+
+210 Gender Studies (3.00) 
+
+220 Family (3.00) 
+
+230 Gender in the Judeo-Christian Traditions (3.00) 
+
+235 Sexuality and Christianity (3.00) 
+
+250 U.S. Women’s History (3.00) 
+
+280 Introduction to Women’s Literature (3.00) 
+
+301 Human Sexuality: A Clash of Values (3.00) 
+
+312 Women and American Politics (3.00) 
+
+350 Gender and World Religions (3.00) 
+
+389 Gender and the Mass Media (3.00) 
+
+390 Intercultural Seminar in Gender and Women’s Studies (3.00) 
+
+395 Leadership, Ethics, and Values Seminar in Gender and Women’s Studies (3.00) 
+
+490 Seminar (3.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*Global Studies (GLS) 
+
+
+============================================================
+*Note HST/SOA 185 may only be used to meet one requirement. 
+
+
+1. Courses (13 credits): Required: SPC 317 Intercultural Communication Three of: ART 264; EAS 292; ECN 324 OR 340; ENG 307, 340, 370, 380, 
+
+2. 
+
+18 credits of academic study in a language other than the student’s native language. 
+
+3. 
+
+4. 
+
+5. 
+
+160 D-Term Study Abroad (2.00-3.00) 
+
+177 Topics in Global Awareness (1.50-3.00) 
+
+260 D-Term Study Abroad (2.00-3.00) 
+
+277 Seminar: Study Abroad (0.00-2.00) 
+
+287 Topics in Chinese Culture (1.50) 
+
+288 Topics in Japanese Culture (1.50) 
+
+360 D-Term Study Abroad (2.00-3.00) 
+
+362 D-Term Study Abroad ACR-Intercultural(2.00-3.00) 
+
+363 Seminar in Costa Rica (3.00) 
+
+365 Topics in Global Studies (3.00) 
+
+367 Modern Britain (3.00) 
+
+387 Seminar in China and Japan (3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+490 Global Perspectives Capstone Seminar (1.00) 
+
+492 Seminar in Global Studies (3.00) 
+
+497 Internship (0.00-9.00) 499 Independent Study (1.00-9.00) 
+
+============================================================
+*Health and Physical Education (HPE) 
+
+
+440 are required for a total of three credit hours) 
+
+100-level Biology course or strong science background 
+
+220 or PSY 230. 
+
+23-26 credit hours, including: 
+
+19-23 credit hours, including: 
+
+21.5-22.5 credit hours, including: HPE 103 Weight Training HPE 121 Wellness BCM 140 Nutrition PSY 280 Drugs and Behavior one cardiovascular course chosen from HPE 100-104 one lifetime activity course chosen from HPE 113, 118, 274, 276, 279 since a maximum of eight credit hours of physical education activity courses may count toward graduation requirements, if HPE 113 or 118 is taken to fulfill the lifetime activity requirement, a minimum of 121 credit hours is needed to graduate three credit hours from Religion, Philosophy, or Leadership, Ethics and Values* three credit hours from Sociology and Anthropology or a three credit hour internship in community service* *To be agreed upon with faculty advisor when the minor is planned. 
+
+100 Multi-Activities (2.00) 
+
+101 Jogging (2.00) 
+
+102 Cardiovascular Cross Training (2.00) 
+
+103 Weight Training (2.00) 
+
+104 Cycling (2.00) 
+
+106 Introduction to Teaching Physical Education (3.00) 
+
+109 Downhill Skiing (2.00) 
+
+110 Badminton (2.00) 
+
+111 Bowling (2.00) 
+
+113 Golf (2.00) 
+
+114 Power Volleyball (2.00) 
+
+115 Rock Climbing (2.00) 
+
+116 Self Defense (2.00) 
+
+117 Racquetball (2.00) 
+
+118 Tennis (2.00) 
+
+119 Scuba Diving (2.00) 
+
+120 Outdoor Education (3.00) 
+
+121 Wellness (3.00) 
+
+124 Basketball (2.00) 
+
+125 Varsity Baseball (2.00) 
+
+126 Varsity Basketball (2.00) 
+
+127 Varsity Cross Country & Track (2.00) 
+
+128 Varsity Football (2.00) 
+
+129 Varsity Golf (2.00) 
+
+130 Varsity Soccer (2.00) 
+
+131 Varsity Softball (2.00) 
+
+132 Varsity Swimming (2.00) 
+
+133 Varsity Tennis (2.00) 
+
+134 Varsity Volleyball (2.00) 
+
+135 Varsity Wrestling (2.00) 
+
+136 Varsity Lacrosse (2.00) 
+
+137 First Aid (2.00) 
+
+145 Musical Theatre Dance I (2.00) 
+
+150 History of Physical Education and Sport (3.00) 
+
+157 Acute Care and Management (2.00) 
+
+195 Motor Learning and Development (3.00) 
+
+200 Methods of Teaching Outdoor and Adventure Education (2.00) 
+
+216 Advanced Self-Defense (2.00) 
+
+220 Athletic Training Clinical Experience I (1.00) 
+
+222 Foundations of Exercise Science (3.00) 
+
+225 Introduction to Athletic Training I (3.00) 
+
+230 Community Health (3.00) 
+
+231 School Health (3.00) 
+
+245 Musical Theatre Dance II (2.00) 
+
+246 Jazz Dance (0.00-1.50) 
+
+247 Human Anatomy (3.00) 
+
+147. 
+
+248 Tap Dance (0.00-1.50) 
+
+250 Introduction to Sport Management (3.00) 
+
+251 Introduction to Sport Management II (3.00) 
+
+252 Ballet (0.00-1.50) 
+
+255 Methods of Teaching Team Sports (3.00) 
+
+257 Methods of Teaching Individual Sports (3.00) 
+
+260 Psychological Aspects of Coaching (3.00) 
+
+262 Sport in Modern Society (2.00) 
+
+272 Sport and Art (2.00) 
+
+274 Lifeguard Training (2.00) 
+
+276 Methods of Teaching Rhythmic Movement (3.00) 
+
+279 Introduction to Water Safety(2.00) 
+
+280 Human Physiology (3.00) 
+
+285 Applied Anatomy and Assessment Techniques (1.50) 
+
+290 Methods of Teaching Adapted Physical Education (3.00) 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+310 Measurement and Evaluation in Physical Education (3.00) 
+
+311 Methods of Teaching Fitness Education (3.00) 
+
+312 Methods and Evaluation in Physical Education (3.00) 
+
+314 Curriculum Design and Administration in Physical Education (3.00) 
+
+317 Kinesiology (3.00) 
+
+320 Sport and Recreation Marketing (3.00) 
+
+322 Sport Law and Organization (3.00) 
+
+325 Introduction to Athletic Training II (3.00) 
+
+330 Athletic Training: Clinical Experience II (1.00) 
+
+331 Curriculum Development, Methods, and Evaluation in Health Education (3.00) 
+
+340 Assessment of Lower Extremity and Back Injuries and Conditions (3.00) 
+
+341 Assessment of Upper Extremity, Head and Neck Injuries and Conditions (3.00) 
+
+347 Physiology of Exercise (3.00) 
+
+350 Medical Aspects of Sports Medicine (3.00) 
+
+351 Athletic Training Administration (3.00) 
+
+352 Advanced Concepts of Health (3.00) 
+
+231. 
+
+354 Applied Nutrition and Body Weight Management (3.00) 
+
+355 Teaching Sexuality Education (3.00) 
+
+360 Sport in Society (3.00) 
+
+362 Sport, Politics, and Power (2.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+410 Fitness Evaluation (3.00) 
+
+420 Exercise Program Design for the Fitness Professional (3.00) 
+
+425 Therapeutic Modalities (3.00) 
+
+430 Therapeutic Exercise and Rehabilitation (3.00) 
+
+285. 
+
+440 Athletic Training Clinical Experience III (1.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*History (HST) 
+
+
+1. 
+
+2. 
+
+3. 
+
+4. 
+
+5. 
+
+6. 
+
+7. 
+
+1. 
+
+2. 
+
+3. 
+
+4. 
+
+5. 
+
+6. 
+
+101 Western Civilization I (3.00) IAI: H2 901 
+
+104 Western Civilization II (3.00) IAI: H2 902 
+
+108 Western Civilization III (3.00) IAI: H2 902 
+
+115 Topics in U. S. History (3.00) 
+
+120 Chicago History (3.00) 
+
+140 Modern Ireland (3.00) 
+
+154 Global Perspectives: Premodern Era (3.00) 
+
+155 Global Perspectives: Modern Era (3.00) 
+
+165 Introduction to East Asia (3.00) IAI: S2 908N 
+
+175 Latin American History (3.00) 
+
+185 Peoples and Cultures of Africa (3.00) IAI: S2 906N 
+
+200 Historical Methods (3.00) 
+
+210 City Life (3.00) 
+
+221 U.S. History to 1865 (3.00) 
+
+223 U.S. History from 1865-1945 (3.00) 
+
+225 U.S. History since 1945 (3.00) 
+
+245 Illinois History (3.00) 
+
+248 American Environmental History (3.00) 
+
+249 African-American History (3.00) 
+
+250 U.S. Women’s History (3.00) 
+
+255 Greek and Roman History (3.00) 
+
+256 Medieval and Renaissance Europe (3.00) 
+
+257 Reformation Europe (3.00) 
+
+258 Early Modern Europe (3.00) 
+
+261 Traditional China (3.00) 
+
+263 Japanese History (3.00) 
+
+265 Modern China (3.00) 
+
+267 Topics in Global History (3.00) 
+
+268 India since 1750 (3.00) 
+
+270 U.S. Diplomatic History (3.00) 
+
+271 Modern Middle East (3.00) IAI: S2 919N 
+
+280 Nineteenth Century Europe (3.00) 
+
+281 Twentieth Century Europe (3.00) 
+
+299 Independent Study (0.00-9.00) 
+
+312 Immigration and U.S. Ethnic Identity (3.00) 
+
+315 Research and Local History (3.00) 
+
+320 U.S. Social Movements (3.00) 
+
+323 History of Ideas in America (3.00) 
+
+325 American Cities and Suburbs (3.00) 
+
+330 East Asian Thought (3.00) 
+
+345 European Intellectual History (3.00) 
+
+347 Science, Religion, and Magic (3.00) 
+
+348 The Age of Discovery: Europe 1300-1700 (3.00) 
+
+363 Mexico and its Neighbors (3.00) 
+
+370 Seminar in Global History (3.00) 
+
+385 The World Wars of the Twentieth Century (3.00) 
+
+392 Seminar: Holocaust (3.00) 
+
+395 Advanced Research in Local History (3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+470 Capstone Seminar (3.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*History of Ideas (HOI) 
+
+
+21 credit hours, including: 
+
+102 History of Ideas I: Greek and Hebrew Thought (3.00) IAI: HF 902 
+
+103 History of Ideas II: Roman and Christian IAI: HF 902 Thought (3.00) 
+
+201 History of Ideas III: Medieval and Renaissance IAI: HF 902 Thought (3.00) 
+
+202 History of Ideas IV: Early Modern Thought (3.00) IAI: HF 903 
+
+203 History of Ideas V: 19th and 20th Century IAI: HF 903 Thought (3.00) 
+
+============================================================
+*Honors (HON) 
+
+
+200 What is Truth?(1.00) 
+
+300 Thesis Practicum (1.00) 
+
+400 Honors Thesis (3.00) 
+
+115 Human Geography (3.00) IAI: S4 900N 
+
+165 Introduction to East Asia (3.00) 
+
+175 Cultural Regions of the World (3.00) 
+
+200 Research Methods in Social Sciences: Quantitative (3.00) 
+
+215 Regional Geography (3.00) 
+
+253 Symposium on Ethical/Legal/Moral Responsibility (3.00) 
+
+263 Japanese History (3.00) 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+310 Death and Dying (3.00) 
+
+392 The Holocaust (3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+490 Leadership, Ethics, and Values in Sport and Fitness (3.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+1. 
+
+2. 
+
+3. 
+
+4. 
+
+5. 
+
+6. 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*Information Systems (IFS) 
+
+
+103 Data Analysis and Modeling Using Spreadsheets (1.50) 
+
+106 Information Management Using Databases (1.50) 
+
+109 Image Processing (1.50) 
+
+115 Web Page Development (1.50) 
+
+116 Website Design and Development (1.50) 
+
+125 Computer Animation with Flash (1.50) 
+
+141 Designing Graphics (1.50) 
+
+220 Video Editing and Production (1.50) 
+
+230 Digital Audio Editing and Production (1.50) 
+
+297 Internship (0.00-4.00) 
+
+299 Independent Study (1.00-4.00) 320 Multimedia Presentations (1.50) 
+
+397 Internship (0.00-4.00) 399 Independent Study (1.00-4.00) 497 Internship (0.00-4.00) 499 Independent Study (1.00-4.00) 
+
+============================================================
+*Interactive Media Studies (IMS) 
+
+
+3 credit hours at 200-level or above 
+
+3 credit hours at 300-level or above 
+
+21 credit hours to include: IMS 100 Introduction to Visual Literacy IMS 260 Introduction to New Media IFS 115 Designing Web Pages (1.5) IMS 125 Computer Animation with Flash (1.5) Select twelve or more additional hours from the Interactive Media Studies interdisciplinary courses of which 4.5 hours must be at the 300-level or above. 
+
+100 Introduction to Visual Literacy (3.00) 
+
+113 Multimedia Practicum (0.00-1.50) 
+
+1.5 credit hours of work on the publication. Enrollment is encouraged but not required of staff members. A maximum of six credit hours may be earned in IMS 113 multimedia practica. Prerequisites: IMS major or minor, and instructor consent. 
+
+125 Computer Animation with Flash (1.50) 
+
+200 Writing Across Media (3.00) 
+
+125. 
+
+215 Introduction to Web Programming (3.00) 
+
+220 Video Editing and Production (1.50) 
+
+230 Digital Audio Editing and Production (1.50) 
+
+260 Introduction to New Media (3.00) 
+
+297 Internship (0.00-3.00) 
+
+299 Independent Study (1.00-9.00) 
+
+320 Motion Graphics (3.00) 
+
+343 Digital Illustration and Prepress Production (3.00) 
+
+390 Special Topics (3.00) 
+
+397 Internship (0.00-3.00) 
+
+399 Independent Study (1.00-9.00) 
+
+490 Portfolio Workshop (3.00) 
+
+497 Internship (0.00-3.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*Interdisciplinary Studies (IDS) 
+
+
+125 First-Year Seminar (3.00) 
+
+299 Independent Study (1.00-9.00) 
+
+360 Topics (3.00) 
+
+390 Topics (3.00) 
+
+399 Independent Study (1.00-9.00) 
+
+460 Seminar (3.00) 
+
+490 Seminar (3.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*Leadership, Ethics, and Values (LEV) 
+
+
+121 Issues in Leadership (3.00) 
+
+230 Conflict Resolution (3.00) 
+
+240 Leadership & Culture (3.00) 
+
+250 NCC Preceptor (1.00-2.00) 
+
+301 Social Change and Servant Leadership (3.00) 
+
+325 Leadership and Place (3.00) 
+
+330 Conflict Resolution Clinic (2.00) 
+
+350 Ethnic and Religious Conflict Resolution (3.00) 
+
+390 Seminar on Leadership Theory (3.00) 
+
+495 Applied Leadership (3.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*Management and Marketing (BUS) 
+
+
+1. 
+
+2. 
+
+3. 
+
+4. 	
+
+1. 	BUS 162 Management of Organizations BUS 168 Marketing BUS 241 Business and Economic Statistics BUS 446 Operations Research BUS 460 Management Information Systems BUS 467 Project Management BUS 475 Busness Strategy ACC 201 Accounting Principles I/Financial ACC 202 Accounting Principles II/Managerial ECN 250 Microeconomic Principles ECN 252 Macroeconomic Principles One of the following: 
+
+2. A computer science minor consisting of at least 23.5 credit hours to include: CSC 160 Computer Science I CSC 161 Computer Science II CSC 220 Data Structures and Algorithms CSC 453 Systems Analysis CSC 460 Database Management Systems CSC 469 Computer Networks One of the following: 
+
+135 Introduction to International Business (3.00) 
+
+162 Management of Organizations (3.00) 
+
+168 Marketing (3.00) 
+
+195 Entrepreneurial Focus (1.50) 
+
+197 Entrepreneurial Experience (1.50) 
+
+205 Introduction to Business Law (3.00) 
+
+241 Business and Economic Statistics (3.00) 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+372 Consumer Behavior (3.00) 
+
+378 Sales & Sales Management (3.00) 
+
+384 Human Resource Management (3.00) 
+
+390 Seminar (3.00) 
+
+393 Market Research (3.50) 
+
+395 Small Business & Entrepreneurship (3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+420 Production/Operations Management (3.00) 
+
+424 Staffing and Employment Law (3.00) 
+
+434 Compensation and Performance Management (3.00) 
+
+446 Operations Research (3.00) 
+
+455 Promotional Strategy (3.00) 
+
+460 Management Information Systems (3.00) 
+
+465 MIS Field Project (3.00) 
+
+467 Project Management (3.00) 
+
+470 Marketing Management (3.00) 
+
+475 Business Strategy (3.00) 
+
+480 Business Law Topics (3.00) 
+
+482 International Management (3.00) 
+
+485 Marketing Topics (3.00) 
+
+488 International Marketing (3.00) 
+
+490 Seminar (3.00) 
+
+495 Business Plan Development (3.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*Mathematics (MTH) 
+
+
+1.  MTH 141  Integrated Calculus II: Calculus of Derivatives -or- 
+
+2. 
+
+3. 
+
+280  
+
+095 Intermediate Algebra (3.00) 
+
+107 Elementary Mathematics I (3.00) 
+
+108 Elementary Mathematics II (3.00) IAI: M1 903 
+
+111 Quantitative Reasoning (3.00) 
+
+118 Finite Mathematics (3.00) 
+
+121 College Algebra (3.00) 
+
+122 College Trigonometry (3.00) 
+
+130 Calculus for Business and Social Sciences (3.00) 
+
+140 Integrated Calculus I: Calculus of Limits (3.00) 
+
+141 Integrated Calculus II: Calculus of Derivatives (3.00) 
+
+151 Calculus I (3.00) IAI: M1 900 
+
+152 Calculus II (3.00) IAI: M1 900 
+
+151. Core: Mathematics. 
+
+153 Calculus III (3.00) IAI: M1 900 
+
+230 Discrete Structures I (3.00) IAI: M1 905 
+
+231 Discrete Structures II (3.00) 
+
+254 Calculus IV (3.00) 
+
+153. Core: Mathematics. 
+
+256 Introduction to Differential Equations and Linear Algebra (3.00) 
+
+280 The Nature of Proof in Mathematics (3.00) 
+
+152. 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+300 Linear Algebra (3.00) 
+
+305 College Geometry (3.00) 
+
+310 History of Mathematics (3.00) 
+
+315 Ordinary Differential Equations with Applications (3.00) 
+
+323 Complex Variables (3.00) 
+
+341 Probability & Statistics I (3.00) 
+
+342 Probability & Statistics II (3.00) 
+
+341. 
+
+355 Applied Mathematic Techniques (3.00) 
+
+365 Theory of Interest (3.00) 
+
+375 Problem Solving Seminar (1.00-3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+421 Abstract Algebra I (3.00) 
+
+422 Abstract Algebra II (3.00) 
+
+421. 
+
+461 Real Analysis I (3.00) 
+
+462 Real Analysis II (3.00) 
+
+473 Topology (3.00) 
+
+490 Seminar (3.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*Modern and Classical Languages (MCL) 
+
+
+12 credit hours in Latin language courses taken from: 
+
+============================================================
+*CLASSICS (CLS) 
+
+
+250 Classical Mythology (3.00) 
+
+255 Greek and Roman History (3.00) 
+
+299 Independent Study (1.00-9.00) 
+
+310 Topics in Greek and Roman Culture (3.00) 
+
+390 Topics (3.00) 
+
+399 Independent Study (1.00-9.00) 
+
+410 Classical Literature in Translation (3.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*LATIN (LAT) 
+
+
+101 Elementary Latin I (3.00) 
+
+102 Elementary Latin II (3.00) 
+
+103 Elementary Latin III (3.00) 
+
+201 Intermediate Latin (3.00) 
+
+220 Readings in Latin (3.00) 
+
+299 Independent Study (1.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*CHINESE (CHI) 
+
+
+101 Elementary Chinese I (3.00) 
+
+102 Elementary Chinese II (3.00) 
+
+103 Elementary Chinese III (3.00) 
+
+105 Chinese Culture and Society (3.00) 
+
+201 Intermediate Chinese I (3.00) 
+
+202 Intermediate Chinese II (3.00) 
+
+203 Intermediate Chinese III (3.00) 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+310 Exploring China Through Film (3.00) 
+
+311 Exploring Chinese Through Popular Culture (3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+410 Communication and Composition (3.00) 
+
+411 Chinese for Professional Settings (3.00) 
+
+399 Independent Study (1.00-9.00) 
+
+============================================================
+*FRENCH (FRN) 
+
+
+101 Elementary French I (3.00) 
+
+102 Elementary French II (3.00) 
+
+103 Elementary French III (3.00) 
+
+201 Intermediate French I (3.00) 
+
+202 Intermediate French II (3.00) 
+
+203 Intermediate French III (3.00) 
+
+250 Techniques in French Composition (3.00) 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+310 Style and Structure in French Composition (3.00) 
+
+320 Le Francais Commercial (2.00) 
+
+325 Survey of French Literature - Medieval to 17th Century (3.00) 
+
+326 Survey of French Literature - 18th to 21st Century (3.00) 
+
+327 Survey of French and Francophone Women Writers (3.00) 
+
+330 History of France (3.00) 
+
+331 Contemporary France (3.00) 
+
+338 Vichy France (3.00) 
+
+310. ACR: Leadership, Ethics and Values. 
+
+370 Francophone Africa (3.00) 
+
+380 French Cinema (3.00) 
+
+390 Topics (3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+420 Medieval French Literature (3.00) 
+
+470 Humor in French Literature (3.00) 
+
+480 French Theatre (3.00) 
+
+490 Seminar (3.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*GERMAN (GER) 
+
+
+101 Elementary German I (3.00) 
+
+102 Elementary German II (3.00) 
+
+103 Elementary German III (3.00) 
+
+201 Intermediate German I (3.00) 
+
+202 Intermediate German II (3.00) IAI: H1 900L 
+
+203 Conversation and Composition I (3.00) IAI: H1 900L 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+310 German Life and Culture after World War II (3.00) 
+
+320 German History and Culture (3.00) 
+
+325 Survey of German Literature (3.00) 
+
+330 The Weimar Republic (3.00) 
+
+350 German Film (3.00) 
+
+370 Berlin: A City in Flux (3.00) 
+
+390 Topics (3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+490 Seminar (3.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*JAPANESE (JPN) 
+
+
+101 Elementary Japanese I (3.00) 
+
+102 Elementary Japanese II (3.00) 
+
+103 Elementary Japanese III (3.00) 
+
+201 Intermediate Japanese I (3.00) 
+
+202 Intermediate Japanese II (3.00) 
+
+203 Intermediate Japanese III (3.00) IAI: H1 900L 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+301 Third-Year Japanese I (3.00) 
+
+302 Third-Year Japanese II (3.00) 
+
+303 Third-Year Japanese III (3.00) 
+
+390 Topics (3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+410 Reading and Grammar II (3.00) 
+
+451 Writing and Grammar II (3.00) 
+
+490 Seminar (3.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*SPANISH (SPN) 
+
+
+101 Elementary Spanish I (3.00) 
+
+102 Elementary Spanish II (3.00) 
+
+103 Elementary Spanish III (3.00) 
+
+177 Intensive Spanish in Costa Rica (6.00) 
+
+201 Intermediate Spanish I (3.00) 
+
+202 Intermediate Spanish II (3.00) IAI: H1 900L 
+
+201. Core: Humanities. 
+
+250 Spanish Conversation and Composition I (3.00) 
+
+277 Intensive Spanish in Costa Rica (6.00) 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+310 Spanish Conversation and Composition II (3.00) 
+
+322 Spanish for the Professions (3.00) 
+
+325 Survey of Peninsular Spanish Literature (3.00) 
+
+327 Modern Spanish Theatre (3.00) 
+
+331 Latin American Area & Civilization (3.00) 
+
+333 Civilization & Culture of Spain (3.00) 
+
+335 Survey of Latin American Literature (3.00) 
+
+337 Latin American Short Story (3.00) 
+
+377 Intensive Spanish in Costa Rica (6.00) 
+
+390 Topics (3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+477 Intensive Spanish in Costa Rica (6.00) 
+
+490 Seminar (3.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*MODERN AND CLASSICAL LANGUAGES (MCL) 
+
+
+380 Theoretical Foundations of Teaching ESL/Bilingual Students (3.00) 
+
+382 Cross-Cultural Studies for Teaching English Language Learners (3.00) 
+
+390 Topics in Language and Culture (3.00) 
+
+480 Senior Language Certification Portfolio (1.00) 
+
+203. 
+
+============================================================
+*Music (MUS) 
+
+
+1. Music Requirements: 
+
+2. The Secondary Education Supplemental major is required. 
+
+12 terms of applied classical music (MUS 211, 221 or 331). 
+
+101 Basic Music Theory I (3.00) 
+
+102 Basic Music Theory II (3.00) 
+
+108 Basic Musicianship I (1.00) 
+
+101. 
+
+109 Basic Musicianship II (1.00) 
+
+110 Cardinal Chorus (0.00-0.50) 
+
+111 Concert Choir (0.00-0.50) 
+
+112 North Central Express (0.00-0.50) 
+
+113 Naperville Chorus (0.00-0.50) 
+
+114 Concert Winds (0.00-0.50) 
+
+115 Big Band (0.00-0.50) 
+
+116 Women’s Chorale (0.00-0.50) 
+
+150 Listening to Music (3.00) IAI: F1 900 
+
+156 The World of Music (3.00) IAI: F1 900 
+
+181 Jazz Improvisation I (3.00) 
+
+182 Jazz Improvisation II (3.00) 
+
+201 Intermediate Music Theory I (3.00) 
+
+202 Intermediate Music Theory II (3.00) 
+
+205 Opera Workshop (0.00-0.50) 
+
+208 Intermediate Musicianship I (1.00) 
+
+209 Intermediate Musicianship II (1.00) 
+
+211 Piano Lessons (0.00, 0.50, 1.00) 
+
+221 Voice Lessons (0.00, 0.50, 1.00) 
+
+231 Instrumental Lessons (0.00, 0.50, 1.00) 
+
+241 Jazz Combo (0.00-0.50) 
+
+245 Vocal Jazz Lab Ensemble (0.00-0.50) 
+
+250 Music Literature I (2.00) IAI: F1 901 
+
+251 Music Literature II (2.00) IAI: F1 902 
+
+260 Jazz Harmony I (3.00) 
+
+261 Jazz Harmony II (3.00) 
+
+281 Jazz Improvisation III (3.00) 
+
+282 Jazz Improvisation IV (3.00) 
+
+299 Independent Study (1.00-9.00) 
+
+301 Music History I (2.00) 
+
+302 Music History II (2.00) 
+
+303 Music History III (2.00) 
+
+305 Jazz History I (3.00) 
+
+306 Jazz History II (3.00) 
+
+307 Chamber Ensemble (0.00-0.50) 
+
+311 Piano (0.00, 0.50, 1.00) 
+
+321 Voice (0.00, 0.50, 1.00) 
+
+322 Woodwind Techniques (1.50) 
+
+323 Brass Techniques (1.50) 
+
+324 String Techniques (1.50) 
+
+325 Percussion Techniques (1.50) 
+
+328 Diction for Singers (1.50) 
+
+329 Vocal Pedagogy and Techniques (1.50) 
+
+331 Instrumental Lessons (0.00, 0.50, 1.00) 
+
+341 Advanced Music Theory (3.00) 
+
+342 Arranging and Orchestration (3.00) 
+
+343 Advanced Musicianship (1.00) 
+
+344 Elements of Conducting (2.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+407 Advanced Instrumental Conducting & Techniques (3.00) 
+
+408 Advanced Choral Conducting & Techniques (3.00) 
+
+490 Seminar in Music (3.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*NCC Courses (NCC) 
+
+
+095 Applied Principles of Learning and Memory (1.50) 
+
+100 Exploration (1.00) 
+
+120 Information Research Strategies (1.50) 
+
+297 Non-Credit Internship/Cooperative Learning I (0.00) 
+
+299 Independent Study (1.00-9.00) 
+
+397 Non-Credit Internship/Cooperative Learning II (0.00) 
+
+497 Non-Credit Internship/Cooperative Learning III (0.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*Neuroscience (NSC) 
+
+
+100 Introduction to Neuroscience (3.75) 
+
+300 Neuroscience (3.75) 
+
+499 Independent Study (1.00-3.00) 
+
+============================================================
+*Recommended Upper-level Coursework Taken During the 12-Month Clinical Internship at Northwestern Memorial Hospital:: 
+
+
+152. 
+
+405 Medical Terminology (1.00) 
+
+410 Management and Methods of Patient Care (2.00) 
+
+412 Radiation Safety and Protection (3.00) 
+
+414 Radiation Detection and Instrumentation (2.00) 
+
+421 Radiation Physics and Instrumentation (3.00) 
+
+425 Diagnostic Nuclear Imaging Clinical Practicum I (4.00) 
+
+426 Diagnostic Nuclear Imaging Clinical Practicum II (4.00) 
+
+430 Clinical Nuclear Imaging Procedures (3.00) 
+
+432 Radionuclide Chemistry and Radiopharmacy (3.00) 
+
+434 Radiation Biology (2.00) 
+
+436 Computer Applications (3.00) 
+
+438 Clinical Correlation - Pathology (3.00) 
+
+440 Computed Tomography and Cross Sectional Anatomy (2.00) 
+
+============================================================
+*Philosophy (PHL) 
+
+
+100 Introduction to Philosophy (3.00) IAI: H4 900 
+
+110 Ethics (3.00) IAI: H4 904 
+
+210 Professional Ethics (3.00) 
+
+215 Bioethics (3.00) 
+
+220 Aesthetics (3.00) 
+
+225 Environmental Ethics (3.00) 
+
+230 Logic (3.00) IAI: H4 906 
+
+235 Existentialism (3.00) 
+
+240 Philosophy & Literature (3.00) 
+
+241 Philosophy of Law (3.00) 
+
+260 Ancient & Medieval Philosophy (3.00) IAI: H4 901 
+
+270 Early Modern Philosophy (3.00) IAI: H4 902 
+
+280 Modern Philosophy (3.00) IAI: H4 902 
+
+290 Philosophic Inquiry (3.00) 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+310 Ethical Theory (3.00) 
+
+320 Philosophy of History (3.00) 
+
+341 Classics of Political Philosophy (3.00) 
+
+343 Economic and Social Justice (3.00) 
+
+344 Religion and the Political Order (3.00) 
+
+360 Philosophy of Religion (3.00) 
+
+361 Science and Religion: Conflict or Dialogue? (3.00) 
+
+370 Philosophy of Science (3.00) 
+
+380 Epistemology & Metaphysics (3.00) 
+
+280. 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+490 Philosophic Problems: Seminar (3.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*Physics (PHY) 
+
+
+28.75 credit hours of physics including: PHY 141 Physics I PHY 142 Physics II PHY 143C Physics III (Calculus- Based) PHY 244 Physics IV PHY 245 Physics V: Quantum Physics 
+
+32.75 credit hours of physics including: PHY 141 Physics I PHY 142 Physics II 
+
+41.75 credit hours of physics including: PHY 141 Physics I PHY 142 Physics II PHY 143C Physics III (Calculus- Based) PHY 210 Electronics PHY 244 Physics IV PHY 245 Physics V: Quantum Physics Two of the following: 
+
+21.75 credit hours of physics including: PHY 141 Physics I PHY 142 Physics II PHY 143C Physics III (Calculus- Based) PHY 244 Physics IV PHY 245 Physics V: Quantum Physics An additional seven credit hours of physics must be taken at the 200-level or above 
+
+100 Principles of Physics (3.50) 
+
+115 College Physics I (4.00) 
+
+116 College Physics II (4.00) 
+
+121 Principles of Astronomy (3.00) 
+
+141 Physics I (3.00) 
+
+142 Physics II (3.00) 
+
+116. Prerequisites: PHY 141 or PHY 115; MTH 141 or 151. Core: Science (Lab). 
+
+143A Physics III (Algebra-Based) (3.00) 
+
+143C Physics III (Calculus-Based) (3.75) 
+
+151 Special Relativity (1.00) 
+
+210 Electronics (3.00) 
+
+244 Physics IV (3.00) 
+
+245 Physics V: Quantum Physics (2.00) 
+
+251 Physics of Solids (2.00) 
+
+252 Nucei and Particles (2.00) 
+
+253 Astrophysics and Cosmology (2.00) 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+315 Engineering Statics (3.00) 
+
+321 Classical Dynamics (3.00) 
+
+340 Thermodynamics (4.00) 
+
+355 Applied Mathematical Techniques (3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+420 Electricity and Magnetism (3.00) 
+
+441 Quantum Mechanics (3.00) 
+
+450 Advanced Laboratory (1.00-3.00) 
+
+490 Research (1.00-3.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*Political Science (PSC) 
+
+
+33 credit hours which must include the following: 
+
+18 credit hours which must include the following: PSC 101, PSC 200, and PSC 490, plus at least two PSC courses at the 300-level. 
+
+101 Introduction to American Government (3.00) IAI: S5 900 
+
+102 Introduction to International Relations (3.00) IAI: S5 904N 
+
+103 Introduction to Law (3.00) 
+
+200 Theories of Political Science (3.00) IAI: S5 903 
+
+201 Practices of Political Science (3.00) 
+
+210 Chicago Politics (3.00) 
+
+211 American Presidency (3.00) 
+
+212 American Congress (3.00) 
+
+213 Elections and Campaigns (3.00) 
+
+214 American Political Parties and Interest Groups (3.00) 
+
+215 Political Behavior and Public Opinion (3.00) 
+
+221 Comparative Politics (3.00) 
+
+222 American Foreign Policy (3.00) 
+
+230 Mock Trial I: Techniques and Procedures (3.00) 
+
+231 Mock Trial II: Competition Practicum (2.00) 
+
+241 Philosophy of Law (3.00) 
+
+290 Topics in Politics (3.00) 
+
+295 Research Practicum (0.50-3.00) 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+312 Women and American Politics (3.00) 
+
+313 Politics of Race, Gender and Class (3.00) 
+
+320 Global Governance (3.00) 
+
+321 Model United Nations I (3.00) 
+
+322 Model United Nations II (3.00) 
+
+324 International Political Economy (3.00) 
+
+252. ACR: Intercultural. 
+
+333 International Law (3.00) 
+
+335 Constitutional Law (3.00) 
+
+336 Civil Rights, Liberties, & Justice (3.00) 
+
+341 Classics of Political Philosophy (3.00) 
+
+343 Economic and Social Justice (3.00) 
+
+344 Modern and Postmodern Political Thought: Culture and Power (3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+490 Seminar in Political Science (3.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*Psychology (PSY) 
+
+
+30-42 credit hours, including: at least nine credit hours at the 300- or 400-level Three Core Courses 
+
+33-45 credit hours; including: at least 12 credit hours at the 300- or 400-level Four Core Courses 
+
+============================================================
+*Psychology Minor 
+
+
+100 Psychology: Science of Behavior (3.00) IAI: S6 900 
+
+120 Psychology of Personal Adjustment (2.00) 
+
+200 Evolutionary Psychology (3.00) 
+
+205 Educational Psychology (3.00) 
+
+210 Child Development (3.00) IAI: S6 903 
+
+220 Psychology of Adolescence (3.00) IAI: S6 904 
+
+230 Psychology of Adulthood and Aging (3.00) IAI: S6 905 
+
+240 Social Psychology (3.00) IAI: S8 900 
+
+250 Statistics (3.00) IAI: M1 902 
+
+255 Research Design & Experimentation (3.75) 
+
+270 Industrial Psychology (3.00) 
+
+280 Drugs and Behavior (3.00) 
+
+282 Stress and Coping (3.00) 
+
+100. 
+
+295 Research Practicum (0.50-3.00) 
+
+297 Internship (0.00-9.00) 
+
+310 Cultural Psychology (3.00) 
+
+320 Personality (3.00) 
+
+324 Abnormal Psychology (3.00) 
+
+325 Child Psychopathology (3.00) 
+
+330 Community Psychology (3.00) 
+
+340 Learning (3.75) 
+
+345 Cognitive Psychology (3.75) 
+
+350 Clinical Psychology (3.00) 
+
+360 Psychological Assessment (3.00) 
+
+370 Biological Psychology (3.75) 
+
+380 History of Psychology (3.00) 
+
+385 Health Psychology (3.00) 
+
+390 Seminar (1.00-3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+490 Seminar (3.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*Radiation Therapy (RDT) 
+
+
+============================================================
+**Recommended Upper-level Coursework Taken During the 14-Month Clinical Internship at Northwestern Memorial Hospital: 
+
+
+152. 
+
+410 Management and Methods of Patient Care I (2.00) 
+
+435 Technical Radiation Therapy I (2.00) 
+
+412 Radiation Safety and Protection (2.00) 
+
+413 Medical Imaging (2.00) 
+
+414 Pathology (2.00) 
+
+416 Radiation Physics (2.00) 
+
+418 Radiation Therapy Physics (2.00) 
+
+420 Radiation Biology (2.00) 
+
+422 Introduction to Technical Radiation Therapy (2.00) 
+
+430 Principles and Practice of Radiation Therapy I (3.00) 
+
+431 Principles and Practice of Radiation Therapy II (3.00) 
+
+434 Quality Management (2.00) 
+
+436 Technical Radiation Therapy II (2.00) 
+
+440 Operational Issues in Radiation Therapy (1.00) 
+
+442 Clinical Practicum I (3.00) 
+
+443 Clinical Practicum II (2.00) 
+
+============================================================
+*Religious Studies (REL) 
+
+
+30 credit hours, including REL 100 and at least two 300-level courses. Courses 
+
+345, 375. 
+
+21 credit hours, including REL 100 and at least one 300-level course. Courses must be distributed among all of the four course listings above. 
+
+100 Introduction to World Religions (3.00) IAI: H5 900 
+
+110 Introduction to Bible (3.00) 
+
+115 Christian Ethics (3.00) 
+
+125 Religious Ethics (3.00) 
+
+210 Old Testament (3.00) IAI: H5 901 
+
+215 The Evolution of God (3.00) 
+
+220 New Testament (3.00) IAI: H5 901 
+
+222 Violence, War, and Peace in the Bible (3.00) 
+
+225 Urban Ethics and Religion (3.00) 
+
+230 Gender in the Judeo-Christian Traditions (3.00) 
+
+235 Sexuality and Christianity (3.00) 
+
+240 Religion in the United States (3.00) IAI: H5 905 
+
+245 Religion and Ethics in Film (3.00) 
+
+255 The Religions of India (3.00) 
+
+260 The Religions of China (3.00) 
+
+265 The Religions of Japan (3.00) 
+
+270 Judaism (3.00) 
+
+280 Islam and the Middle East (3.00) 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+310 Death and Dying (3.00) 
+
+315 Buddhism (3.00) 
+
+325 Jesus and Buddha in Dialogue: Spiritualities of West and East (3.00) 
+
+330 Contemporary Christian Theologies (3.00) 
+
+340 Sociology of Religion (3.00) 
+
+344 Religion and the Political Order (3.00) 
+
+345 Religion, Ritual & Symbol (3.00) 
+
+350 Gender and World Religions (3.00) 
+
+355 The Historical Jesus (3.00) 
+
+360 Philosophy of Religion (3.00) 
+
+361 Science and Religion: Conflict or Dialogue? (3.00) 
+
+375 Topics in Religious Ethics (3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+109 Science Inquiry (3.50) 
+
+141 Physical Geology (3.50) 
+
+210 Landmark Discoveries in Natural Science (3.00) 
+
+297 Pre-Professional Health Science Internship (0.00-3.00) 
+
+299 Independent Study (1.00-9.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+432 Science: Fact or Fiction 
+
+497 Internship (0.00-9.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*Sociology and Anthropology (SOA) 
+
+
+30 to 36 credit hours, depending on the concentration. All students majoring in sociology are required to take six core courses that together examine the central themes, methods, theories, and career opportunities in the discipline. 
+
+18 credit hours including SOA 100, 200 or 202, 201, and nine additional credit hours of sociology elective of which at least three credit hours must be at the 300.level or above. 
+
+27 credit hours, to include the following: SOA 100 Introduction to Sociology SOA 105 Introduction to Cultural Anthropology SOA 155 Native Americans SOA 165 Introduction to Archaeology -or-SOA 205 Introduction to Physical Anthropology SOA 190 Urban Problems SOA 200 Research Methods in Social Science: Quantitative 
+
+36 credit hours, to include the following: 
+
+18 credit hours including SOA 105, 155, 165 or 205, 202, and six additional credit hours selected from: SOA 345, 363, or 421. 
+
+100 Introduction to Sociology (3.00) IAI: S7 900 
+
+105 Introduction to Cultural Anthropology (3.00) IAI: S1 901N 
+
+155 Native Americans (3.00) 
+
+165 Introduction to Archaeology (3.00) 
+
+185 Peoples and Cultures of Africa (3.00) 
+
+190 Urban Problems (3.00) 
+
+200 Research Methods in Social Sciences: Quantitative (3.00) 
+
+201 Social Theory (3.00) 
+
+202 Research Methods in Social Sciences: Qualitative (3.00) 
+
+203 Community Studies (3.00) 
+
+205 Introduction to Physical Anthropology (3.00) 
+
+210 Gender Studies (3.00) 
+
+220 Family (3.00) 
+
+250 Criminology (3.00) 
+
+280 Racial & Ethnic Minorities (3.00) 
+
+295 Research Practicum (0.50-3.00) 
+
+297 Internship (0.00-9.00) 
+
+299 Independent Study (1.00-9.00) 
+
+300 Organized Crime (3.00) 
+
+310 Cultural Psychology (3.00) 
+
+340 Sociology of Religion (3.00) 
+
+345 Religion, Ritual & Symbol (3.00) 
+
+350 Delinquency (3.00) 
+
+360 Sport in Society (3.00) 
+
+363 Mexico and its Neighbors (3.00) 
+
+375 Protest and Change (3.00) 
+
+380 Social Class in American Society (3.00) 
+
+390 Topics in Sociology (3.00) 
+
+397 Internship (0.00-9.00) 
+
+399 Independent Study (1.00-9.00) 
+
+421 Indigenous Peoples and the State (3.00) 
+
+490 Criminal Justice in America (3.00) 
+
+494 Chicago Field Study (3.00) 
+
+497 Internship (0.00-9.00) 
+
+498 Public Sociology (3.00) 
+
+499 Independent Study (1.00-9.00) 
+
+============================================================
+*Speech Communication (SPC) 
+
+
+18 credit hours from the SPC Broadcast track, to include at least three courses above the 100-level and at least one at the 300- or 400-level. 
+
+
+
+
+
+
+
+END OF CATALOG
+
+
+
+
+
