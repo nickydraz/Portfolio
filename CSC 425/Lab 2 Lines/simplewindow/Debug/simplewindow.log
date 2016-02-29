@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (simplewindow.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+g:\school\senior\csc 425\simplewindow\simplewindow\main.cpp(212): warning C4244: 'argument': conversion from 'GLint' to 'float', possible loss of data
+  simplewindow.vcxproj -> G:\School\Senior\CSC 425\simplewindow\Debug\lab2.exe

@@ -1,0 +1,11 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (simplewindow.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+f:\school\senior year\winter\csc 425\menu lab\simplewindow\main.cpp(40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\school\senior year\winter\csc 425\menu lab\simplewindow\main.cpp(44): warning C4305: 'initializing': truncation from 'double' to 'float'
+f:\school\senior year\winter\csc 425\menu lab\simplewindow\main.cpp(44): warning C4305: '+=': truncation from 'double' to 'float'
+f:\school\senior year\winter\csc 425\menu lab\simplewindow\main.cpp(45): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+f:\school\senior year\winter\csc 425\menu lab\simplewindow\main.cpp(76): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+f:\school\senior year\winter\csc 425\menu lab\simplewindow\main.cpp(77): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+f:\school\senior year\winter\csc 425\menu lab\simplewindow\main.cpp(78): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+f:\school\senior year\winter\csc 425\menu lab\simplewindow\main.cpp(104): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  simplewindow.vcxproj -> F:\School\Senior Year\Winter\CSC 425\Menu Lab\Debug\Menu.exe

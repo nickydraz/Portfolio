@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (simplewindow.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+g:\school\senior\csc 425\snowflake\snowflake\main.cpp(15): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+  simplewindow.vcxproj -> G:\School\Senior\CSC 425\snowflake\Debug\snowflake.exe

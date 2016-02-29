@@ -1,0 +1,31 @@
+﻿Build started 2/19/2016 10:04:01 AM.
+     1>Project "E:\School\Senior\CSC 425\paint\simplewindow\simplewindow.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\School\Senior\CSC 425\paint\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/include/" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CImage.cpp CShape.cpp main.cpp
+         main.cpp
+     1>e:\school\senior\csc 425\paint\simplewindow\main.cpp(546): warning C4244: 'argument' : conversion from 'GLfloat' to 'int', possible loss of data
+     1>e:\school\senior\csc 425\paint\simplewindow\main.cpp(735): warning C4244: '=' : conversion from 'int' to 'GLfloat', possible loss of data
+         CShape.cpp
+         CImage.cpp
+     1>e:\school\senior\csc 425\paint\simplewindow\cimage.cpp(48): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\school\senior\csc 425\paint\simplewindow\cimage.cpp(58): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\school\senior\csc 425\paint\simplewindow\cimage.cpp(59): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\school\senior\csc 425\paint\simplewindow\cimage.cpp(65): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\school\senior\csc 425\paint\simplewindow\cimage.cpp(91): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\school\senior\csc 425\paint\simplewindow\cimage.cpp(113): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\school\senior\csc 425\paint\simplewindow\cimage.cpp(123): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\school\senior\csc 425\paint\simplewindow\cimage.cpp(124): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\school\senior\csc 425\paint\simplewindow\cimage.cpp(139): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\school\senior\csc 425\paint\simplewindow\cimage.cpp(140): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         Generating Code...
+     1>e:\school\senior\csc 425\paint\simplewindow\main.cpp(641): warning C4715: 'pick' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\School\Senior\CSC 425\paint\Debug\simplewindow.exe" /INCREMENTAL /NOLOGO "E:\School\Senior\CSC 425\paint\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\glew32.lib" "E:\School\Senior\CSC 425\paint\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\glfw3dll.lib" "E:\School\Senior\CSC 425\paint\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\freeglut.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\School\Senior\CSC 425\paint\Debug\simplewindow.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\School\Senior\CSC 425\paint\Debug\simplewindow.lib" /MACHINE:X86 Debug\CImage.obj
+         Debug\CShape.obj
+         Debug\main.obj
+         simplewindow.vcxproj -> E:\School\Senior\CSC 425\paint\Debug\simplewindow.exe
+     1>Done Building Project "E:\School\Senior\CSC 425\paint\simplewindow\simplewindow.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.23

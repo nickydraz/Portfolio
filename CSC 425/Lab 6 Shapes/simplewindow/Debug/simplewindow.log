@@ -1,0 +1,26 @@
+﻿Build started 2/29/2016 10:20:56 AM.
+     1>Project "E:\School\Senior\CSC 425\Shapes\simplewindow\simplewindow.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (simplewindow.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\School\Senior\CSC 425\Shapes\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/include/" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\school\senior\csc 425\shapes\simplewindow\main.cpp(54): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\school\senior\csc 425\shapes\simplewindow\main.cpp(59): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>e:\school\senior\csc 425\shapes\simplewindow\main.cpp(64): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>e:\school\senior\csc 425\shapes\simplewindow\main.cpp(69): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\school\senior\csc 425\shapes\simplewindow\main.cpp(75): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>e:\school\senior\csc 425\shapes\simplewindow\main.cpp(80): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\school\senior\csc 425\shapes\simplewindow\main.cpp(85): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\school\senior\csc 425\shapes\simplewindow\main.cpp(90): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>e:\school\senior\csc 425\shapes\simplewindow\main.cpp(110): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>e:\school\senior\csc 425\shapes\simplewindow\main.cpp(121): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>e:\school\senior\csc 425\shapes\simplewindow\main.cpp(144): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>e:\school\senior\csc 425\shapes\simplewindow\main.cpp(184): warning C4305: 'argument' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\School\Senior\CSC 425\Shapes\Debug\Lab 5.exe" /INCREMENTAL /NOLOGO "E:\School\Senior\CSC 425\Shapes\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\glew32.lib" "E:\School\Senior\CSC 425\Shapes\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\glfw3dll.lib" "E:\School\Senior\CSC 425\Shapes\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\freeglut.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\School\Senior\CSC 425\Shapes\Debug\Lab 5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\School\Senior\CSC 425\Shapes\Debug\Lab 5.lib" /MACHINE:X86 Debug\main.obj
+         simplewindow.vcxproj -> E:\School\Senior\CSC 425\Shapes\Debug\Lab 5.exe
+     1>Done Building Project "E:\School\Senior\CSC 425\Shapes\simplewindow\simplewindow.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.29

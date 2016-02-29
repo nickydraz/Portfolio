@@ -1,0 +1,12 @@
+﻿  stdafx.cpp
+  CityScape.cpp
+g:\school\senior\csc 425\cityscape\cityscape\cityscape.cpp(29): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+g:\school\senior\csc 425\cityscape\cityscape\cityscape.cpp(82): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+g:\school\senior\csc 425\cityscape\cityscape\cityscape.cpp(88): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+g:\school\senior\csc 425\cityscape\cityscape\cityscape.cpp(91): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+g:\school\senior\csc 425\cityscape\cityscape\cityscape.cpp(92): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+g:\school\senior\csc 425\cityscape\cityscape\cityscape.cpp(140): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+g:\school\senior\csc 425\cityscape\cityscape\cityscape.cpp(141): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+g:\school\senior\csc 425\cityscape\cityscape\cityscape.cpp(142): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+g:\school\senior\csc 425\cityscape\cityscape\cityscape.cpp(143): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+  CityScape.vcxproj -> G:\School\Senior\CSC 425\CityScape\Debug\CityScape.exe

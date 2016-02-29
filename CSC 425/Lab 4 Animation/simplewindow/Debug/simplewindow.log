@@ -1,0 +1,5 @@
+﻿  main.cpp
+g:\school\senior\csc 425\lab4animation\simplewindow\main.cpp(43): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+g:\school\senior\csc 425\lab4animation\simplewindow\main.cpp(49): warning C4305: 'initializing' : truncation from 'double' to 'float'
+g:\school\senior\csc 425\lab4animation\simplewindow\main.cpp(49): warning C4305: '+=' : truncation from 'double' to 'float'
+  simplewindow.vcxproj -> G:\School\Senior\CSC 425\lab4Animation\Debug\simplewindow.exe
