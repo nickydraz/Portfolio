@@ -1,0 +1,57 @@
+//Class for program 1
+//Coded by Nicholas Drazenovic
+
+import java.util.Scanner;
+import java.io.*;
+import java.util.ArrayList;
+
+
+public class custAccount 
+{
+	
+	
+	
+	//Method to read the user data in from the file
+	public void readFile() throws IOException
+	{
+		//String to hold line being read
+		String line;
+		
+		ArrayList<custAccount> custList = new ArrayList<custAccount>();
+		
+		//Creates reader to open input file
+		FileReader freader = new FileReader("accountData.txt");
+		BufferedReader inFile = new BufferedReader(freader);
+		
+		//Read first line		
+		line = inFile.readLine();
+
+		//While loop to read until out of lines
+		while (line != null)
+		{
+			//create scanner
+		Scanner s = new Scanner(line);
+		
+		
+
+			firstName = s.next();
+			lastName = s.next();
+			title = s.next();
+			userid = s.next();
+			password = s.next();
+			
+			custAccount customer = new custAccount(firstName, lastName, title, userid, password);	
+			custList.add(customer);
+			
+			//clean up
+			s.close();
+		}//end while loop
+		
+		//clean up
+		inFile.close();
+		
+	}//end readFile
+	
+	
+	
+}//End class

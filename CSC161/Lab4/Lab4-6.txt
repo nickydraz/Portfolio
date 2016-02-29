@@ -1,0 +1,6 @@
+Written by Nicholas Drazenovic using Lab4-6.data
+Hi, this file is from Molly Durava.
+7
+3.14
+-14
+12 15 45 -6 -13 -30 

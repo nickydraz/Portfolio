@@ -1,0 +1,120 @@
+//Class for program 1
+//Coded by Nicholas Drazenovic
+
+import java.util.Scanner;
+import java.io.*;
+import java.util.ArrayList;
+
+
+public class custAccount 
+{
+
+	private String firstName, lastName, title, userid, password;
+	
+	//constructors
+	
+	public custAccount(String first, String last, String title, String userid, String password) 
+	{
+		this.firstName = first;
+		this.lastName = last;
+		this.title = title;
+		this.userid = userid;
+		this.password = password;
+	}//end constructor
+	
+	//begin set methods
+	
+	public void setFirst(String first)
+	{
+		this.firstName = first;
+	}//end setFirst
+	
+	public void setLast(String last)
+	{
+		this.lastName = last;
+	}//end setLast
+	
+	public void setTitle(String title)
+	{
+		this.title = title;
+	}//end setTitle
+	
+	public void setUserID(String user)
+	{
+		this.userid = user;
+	}//end setUserID
+	
+	public void setPass(String pass)
+	{
+		this.password = pass;
+	}//end setPass
+	
+	//end set methods
+	
+	//being get methods
+	public String getFirst()
+	{
+		return this.firstName;
+	}//end getFirst
+	
+	public String getLast()
+	{
+		return this.lastName;
+	}//end getLast
+	
+	public String getTitle()
+	{
+		return this.title;
+	}//end getTitle
+	
+	public String getID()
+	{
+		return this.userid;
+	}//end getID
+	
+	public String getPass()
+	{
+		return this.password;
+	}//end getPass
+	
+	//end get methods
+	
+	//Method to read the user data in from the file
+	public void readFile() throws IOException
+	{
+		//String to hold line being read
+		String line;
+		
+		ArrayList<custAccount> custList = new ArrayList<custAccount>();
+		
+		//Creates reader to open input file
+		FileReader freader = new FileReader("accountData.txt");
+		BufferedReader inFile = new BufferedReader(freader);
+		
+		//Read first line		
+		line = inFile.readLine();
+
+		//While loop to read until out of lines
+		while (line != null)
+		{
+			//create scanner
+		Scanner s = new Scanner(line);
+		
+		
+
+			firstName = s.next();
+			lastName = s.next();
+			title = s.next();
+			userid = s.next();
+			password = s.next();
+			
+			custAccount customer = new custAccount(firstName, lastName, title, userid, password);	
+			custList.add(customer);
+		}
+		
+		//clean up
+		inFile.close();
+		
+	}//end readFile
+	
+}//End class

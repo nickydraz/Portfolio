@@ -1,0 +1,73 @@
+//Coded by Nicholas Drazenovic
+//Program to read user data from file, 
+//Prompt user to log in
+//If log in data matches data from file, 
+//Print out greeting, else indicate so
+
+import java.util.Scanner;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class prog1 {
+
+	public static void main(String[] args) throws IOException {
+
+		//create scanner
+		Scanner kb = new Scanner(System.in);
+		
+		//read user data from file
+		prog1 prog = new prog1();
+		prog.readFile();
+
+
+	}//end main
+	
+	
+	private final static int LIST_SIZE = 123;
+	private final List<custAccount> custAccount = new ArrayList<custAccount>();
+	
+	//begin Methods
+	//Method to read the user data in from the file
+		private void readFile() throws IOException
+		{
+			//String to hold line being read
+			String line;
+			
+			ArrayList<custAccount> custList = new ArrayList<custAccount>();
+			
+			//Creates reader to open input file
+			FileReader freader = new FileReader("accountData.txt");
+			BufferedReader inFile = new BufferedReader(freader);
+			
+			//Read first line		
+			line = inFile.readLine();
+
+			//While loop to read until out of lines
+			while (line != null)
+			{
+				//create scanner
+			Scanner s = new Scanner(line);
+			
+			
+
+				String firstName = s.next();
+				String lastName = s.next();
+				String title = s.next();
+				String userid = s.next();
+				String password = s.next();
+				
+				custAccount customer = new custAccount(firstName, lastName, title, userid, password);	
+				custList.add(customer);
+				
+				//clean up
+				s.close();
+			}//end while loop
+			
+			//clean up
+			inFile.close();
+			
+		}//end readFile
+
+}//end prog1

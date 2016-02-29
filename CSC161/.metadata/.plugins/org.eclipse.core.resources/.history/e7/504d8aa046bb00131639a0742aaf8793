@@ -1,0 +1,27 @@
+//Coded by Nicholas Drazenovic
+//Program to read user data from file, 
+//Prompt user to log in
+//If log in data matches data from file, 
+//Print out greeting, else indicate so
+
+import java.util.Scanner;
+import java.io.*;
+import java.util.ArrayList;
+
+
+public class prog1 {
+
+	public static void main(String[] args) throws IOException {
+
+		//create scanner
+		Scanner kb = new Scanner(System.in);
+		
+		//create customer object
+		custAccount customer = new custAccount();
+		
+		customer.readFile();
+
+
+	}//end main
+
+}//end prog1

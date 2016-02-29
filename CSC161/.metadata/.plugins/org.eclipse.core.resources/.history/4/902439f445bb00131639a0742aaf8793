@@ -1,0 +1,74 @@
+
+public class custData {
+
+	
+	private String firstName, lastName, title, userid, password;
+	
+	//constructors
+	
+	public custData(String first, String last, String title, String userid, String password) 
+	{
+		this.firstName = first;
+		this.lastName = last;
+		this.title = title;
+		this.userid = userid;
+		this.password = password;
+	}//end constructor
+	
+	//begin set methods
+	
+	public void setFirst(String first)
+	{
+		this.firstName = first;
+	}//end setFirst
+	
+	public void setLast(String last)
+	{
+		this.lastName = last;
+	}//end setLast
+	
+	public void setTitle(String title)
+	{
+		this.title = title;
+	}//end setTitle
+	
+	public void setUserID(String user)
+	{
+		this.userid = user;
+	}//end setUserID
+	
+	public void setPass(String pass)
+	{
+		this.password = pass;
+	}//end setPass
+	
+	//end set methods
+	
+	//being get methods
+	public String getFirst()
+	{
+		return this.firstName;
+	}//end getFirst
+	
+	public String getLast()
+	{
+		return this.lastName;
+	}//end getLast
+	
+	public String getTitle()
+	{
+		return this.title;
+	}//end getTitle
+	
+	public String getID()
+	{
+		return this.userid;
+	}//end getID
+	
+	public String getPass()
+	{
+		return this.password;
+	}//end getPass
+	
+	//end get methods
+}

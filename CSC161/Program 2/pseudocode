@@ -1,0 +1,91 @@
+//Pseudocode for Program 3
+//Written by Nicholas Drazenovic
+
+//Main Program
+
+
+
+//CLASS FILES
+
+//Employee Data Class
+//Abstract
+//get/set methods
+//String --> title, name, address, id
+
+//HourlyEmployee Data class
+//Extends Employee
+//double --> hourlyRate, hoursWorked
+//getGrossWeeklyPay()
+	//return a double
+	return getHourlyRate() * getHoursWorked()
+
+//SalariedEmployee Data class
+//Extends Employee
+//double --> annualSalary
+//getGrossWeeklyPay()
+	return a double
+	return getAnnualSal() / 52
+
+//SuperviserEmployee Data Class
+//Extends Employee
+//double --> annualBonus
+//List<String> reports //list of IDs of employees who report to them
+	//is List<String> correct here?
+//getGrossWeeklyPay()
+	//return a double
+	return (getAnnualSal() / 52) + (getBonus() / 52)
+	
+	
+	
+	
+//file with collection of other methods (call it methods)
+
+//private final static List<Employee> workerList = new ArrayList<Employee>();
+
+//readFile() throws ioexception
+//create filereader
+//create bufferedreader
+//String line --> holds line being read
+//read in first line of file
+//delimeter is ';'
+	//while line is not empty:
+		//create Scanner(line)
+		String title = scanner.next()
+		String name = scanner.next()
+		String address = scanner.next()
+		String id = scanner.next()
+		
+		//if (Salaried)
+			double annualSal = scanner.next()
+			Employee worker = new SalariedEmployee(title, name, address, id, annualSal)
+			workerList.add(worker)
+		//else
+			//if (Hourly)
+				double hourlyRate = scanner.next()
+				double hoursWorked = scanner.next()
+				Employee worker = new HourlyEmployee(title, name, address, id, hourlyRate, hoursWorked)
+				workerList.add(worker)
+			//else
+				//if (Supervisor)
+					double annualSal = scanner.next()
+					double bonus = scanner.next()
+					List<String> IDList = new ArrayList<String>();
+					Employee worker = new SupervisorEmployee(title, name, address, id, annualSal, bonus, IDList)
+					workerList.add(worker)
+		//end if/else
+			
+		//read next line
+		
+	//end while
+//end readFile()	
+
+//displayMenu() -->Use switch statement in main method to make menu selection
+	output: all menu options, new line for each
+		A) Find all employees with a given title
+		B) Find a single employee
+		X) Exit the program
+		
+//getChoice() 
+		
+
+

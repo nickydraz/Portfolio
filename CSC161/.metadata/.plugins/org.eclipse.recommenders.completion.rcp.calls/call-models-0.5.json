@@ -1,0 +1,47 @@
+{
+  "E:\\CSC161\\Lab 1": {
+    "location": "E:\\CSC161\\Lab 1",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027E:\\CSC161\\Lab 1\u0027. Skipped."
+  },
+  "C:\\Program Files\\Java\\jre7\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\rt.jar",
+    "status": "RESOLVED"
+  },
+  "E:\\CSC161\\Lab 2": {
+    "location": "E:\\CSC161\\Lab 2",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027E:\\CSC161\\Lab 2\u0027. Skipped."
+  },
+  "E:\\CSC161\\Program 1": {
+    "location": "E:\\CSC161\\Program 1",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027E:\\CSC161\\Program 1\u0027. Skipped."
+  },
+  "E:\\CSC161\\Lab3": {
+    "location": "E:\\CSC161\\Lab3",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027E:\\CSC161\\Lab3\u0027. Skipped."
+  },
+  "E:\\CSC161\\Program 3": {
+    "location": "E:\\CSC161\\Program 3",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027E:\\CSC161\\Program 3\u0027. Skipped."
+  },
+  "E:\\CSC161\\Program 4": {
+    "location": "E:\\CSC161\\Program 4",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027E:\\CSC161\\Program 4\u0027. Skipped."
+  },
+  "E:\\CSC161\\Lab 8": {
+    "location": "E:\\CSC161\\Lab 8",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027E:\\CSC161\\Lab 8\u0027. Skipped."
+  },
+  "E:\\CSC161\\Lab 10": {
+    "location": "E:\\CSC161\\Lab 10",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027E:\\CSC161\\Lab 10\u0027. Skipped."
+  }
+}

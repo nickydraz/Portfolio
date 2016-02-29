@@ -1,0 +1,141 @@
+//Pseudocode for Program 1 by Nicholas Drazenovic
+
+//Step 1: Reading in the customer data from external file
+//And insert them into an array of customer objects
+
+	Create file reader
+	Create buffered reader
+	
+	WHILE line is not null:
+		read in line
+		input data into array custData, creating new object for each customer
+			-firstName
+			-lastName
+			-title
+			-userid
+			-password
+		convert userid and password to numeric sequences using let2num method
+			then store in new Strings
+					
+	END WHILE
+	
+//Step 2: Prompt user to log in with userid and password as numeric sequences
+	OUTPUT: "Please enter userid followed by #"
+	String userid --> next input from kb
+	
+	OUTPUT: "Please enter password, followed by #"
+	String password --> next input from kb
+	
+//Step 3: Search array for customer object with matching userid and password
+//Must first match the numeric sequences to the actual userid and password data
+	
+	call findID method
+		pass in the list and user input
+		
+		
+//Step 4: If match is found, print greeting
+	//will be dealt with in findID method
+	
+//Step 4: If no match is found
+	//Also dealt with within findID method
+	
+	
+//END MAIN PROGRAM
+
+
+//BEGIN CLASS
+
+
+//Methods
+
+//Include basic get and set methods for following variables:
+	private String firstName, lastName, title, userid, password;
+	private String convID, convPW;
+	
+//have variations of get methods for title and lastName for when fetching for greeting
+
+public static String let2num
+	pass in user input
+	//will be used twice in main program, once for userid, once for password
+	
+		//create string to hold converted value
+		String converted
+			FOR (int i = 0; i < length of list; i++)
+				if the charAt(i) is either A, B, or C
+					add 2 to end of converted
+					else
+						if charAt(i) is D, E, or F
+							add 3 to converted
+							else
+								if charAt(i) is G, H, or I
+									add 4 to converted
+									else
+										if charAt(i) is J, K, or L
+											add 5 to converted
+											else
+												if charAt(i) is M, N, or O
+													add 6 to converted
+													else
+														if charAt(i) is P, Q, R, or S
+															add 7 to converted
+															else
+																if charAt(i) is T, U, or V
+																	add 8 to converted
+																	else
+																		if charAt(i) is W, X, Y, or Z
+																			add 9 to converted
+																			else 
+																				//character is a number
+																				add character directly to converted
+			//end FOR 
+			return converted value
+//end let2num
+
+public static void findID
+	pass in user input and list
+	int valid --> 124
+		//used to determine validity as well as index of user if match is found
+		
+		FOR (int i = ; i < size of list; i++)
+			if (search list for matching userid is successful)
+				valid --> findPW method
+					//pass in valid, list, and user input for password
+		//end FOR
+		
+	IF (valid is no longer == 124)
+		//create calendar to get time of day
+			int hour
+			int min
+			
+			if (hour < 12) //if morning
+				OUTPUT: "Good morning" + title and lastName
+				If (min < 10) //just for formatting
+					OUTPUT: hour + ":0" + min
+				else
+					OUTPUT: hour + ":" + min
+			else
+				OUTPUT: "Good evening" + title and lastName
+				If (min < 10) //just for formatting
+					OUTPUT: hour + ":0" + min
+				else
+					OUTPUT: hour + ":" + min
+	else //no match is found AKA valid still == 124
+		OUTPUT: "No match found"
+
+//end findID method
+
+public static int findPW
+	pass in int, string, and list from findID
+	
+	//create new valid variable, set to 124
+	//if match found, valid will equal value passed in
+	//Else == 124
+	int valid --> 124	
+	
+	if (search for password within index passed in is successful)
+		set valid == passed in value
+		
+	return valid
+//end findPW
+
+//end class file											
