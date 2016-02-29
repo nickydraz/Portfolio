@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contacts Database | Add New</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h3>CSC 415/515 Web-based Community Contacts Database</h3>
+        
+        <h4>Enter Data for New Contact</h4>
+        
+        <form name="login" id="login" action="newContactServlet" method="post">  
+        
+            <table>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" value="" id="fName" name="fName"/></td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" value="" id="lName" name="lName"/></td>
+                </tr>
+                <tr>
+                    <td>Birthday</td>
+                    <td>Month<input type="number" value="1" max="12" min="1" id="month" name="month" /> Day<input type="number" value="1" max="31" min="1" id="day" name="day" /> Year<input type="number" value="1950" max="2020" min="1" id="year" name="year" /></td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td><input type="text" value="" id="phone" name="phone"/></td>
+                </tr>
+            </table>
+            
+            <input type="submit" />
+            
+        </form>
+    </body>
+</html>

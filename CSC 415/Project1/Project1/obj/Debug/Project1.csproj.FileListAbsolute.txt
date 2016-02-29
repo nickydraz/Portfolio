@@ -1,0 +1,8 @@
+G:\School\Senior\CSC 415\Project1\Project1\bin\Debug\Project1.exe.config
+G:\School\Senior\CSC 415\Project1\Project1\bin\Debug\Project1.exe
+G:\School\Senior\CSC 415\Project1\Project1\bin\Debug\Project1.pdb
+G:\School\Senior\CSC 415\Project1\Project1\obj\Debug\Project1.exe
+G:\School\Senior\CSC 415\Project1\Project1\obj\Debug\Project1.pdb
+C:\Bitnami\wampstack-5.5.31-0\apache2\cgi-bin\Project1.exe.config
+C:\Bitnami\wampstack-5.5.31-0\apache2\cgi-bin\Project1.exe
+C:\Bitnami\wampstack-5.5.31-0\apache2\cgi-bin\Project1.pdb

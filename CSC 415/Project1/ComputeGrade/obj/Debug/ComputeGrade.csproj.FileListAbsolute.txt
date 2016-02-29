@@ -1,0 +1,8 @@
+G:\School\Senior\CSC 415\Project1\ComputeGrade\bin\Debug\ComputeGrade.exe.config
+G:\School\Senior\CSC 415\Project1\ComputeGrade\bin\Debug\ComputeGrade.exe
+G:\School\Senior\CSC 415\Project1\ComputeGrade\bin\Debug\ComputeGrade.pdb
+G:\School\Senior\CSC 415\Project1\ComputeGrade\obj\Debug\ComputeGrade.exe
+G:\School\Senior\CSC 415\Project1\ComputeGrade\obj\Debug\ComputeGrade.pdb
+C:\Bitnami\wampstack-5.5.31-0\apache2\cgi-bin\ComputeGrade.exe.config
+C:\Bitnami\wampstack-5.5.31-0\apache2\cgi-bin\ComputeGrade.exe
+C:\Bitnami\wampstack-5.5.31-0\apache2\cgi-bin\ComputeGrade.pdb

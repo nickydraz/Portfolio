@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+@author nicholasdrazenovic
+-->
+<html>
+    <head>
+        <title>NCC Car Emporium Customer Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {width:650px;}
+            input {margin:5px;}
+            h3 {text-align: center;}
+        </style>
+        <script src="ajax.js">
+        </script>
+    </head>
+    <body onload="menuListener()">
+         <fieldset>
+            <legend> View Car Information </legend>
+            <select id="availableCars" onmousedown="menuListener()" onchange="changeListener()" name="availableCars">
+                <option></option>
+                <option></option>
+            </select>
+            <br/>
+            <br/>
+            <br/>
+
+            <fieldset>
+                <legend> Image of Car </legend>
+                <div style="width:400px;border:1px;">
+                    <div style="width:280px;  text-align:center;">
+                        <img id = "carImage" alt="Image of Car"  />
+                        <br/>
+                        <span id ="short"> </span>
+                    </div>
+                </div>
+            </fieldset>
+            <br/>
+            <fieldset>
+                <legend> Full Description of Car </legend>
+                <div style="width: 280px;  text-align:center;">
+                    <textarea id="fullDescriptionTextArea" rows="8" cols="80">
+                    </textarea>
+                    <br/>
+                </div>
+            </fieldset>
+        </fieldset>
+    </body>
+</html>

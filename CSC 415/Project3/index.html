@@ -1,0 +1,90 @@
+<!-- Nicholas Drazenovic -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Concentration Game</title>
+        <meta http-equiv="Content-Type"
+             content="text/html; charset=UTF-8">
+        <script type="text/javascript"
+             src="Carsentration.js">
+        </script>
+    </head>
+    <body onload="fillArray()">
+        <table border="1" cellspacing="5" id="table">
+            <tbody>
+
+<h3>CSC 415/515 PROJECT 3 JAVASCRIPT CONCENTRATION GAME</h3>
+             <tr>
+               <td><img id="0" src="images/hidden.png"
+                   width="90" height="90" onclick="showPic(this.id)" /></td>
+               <td><img id="1" src="images/hidden.png"
+                   width="90" height="90" onclick="showPic(this.id)"/></td>
+               <td><img id="2" src="images/hidden.png"
+                   width="90" height="90" onclick="showPic(this.id)"/></td>
+               <td><img id="3" src="images/hidden.png"
+                   width="90" height="90" onclick="showPic(this.id)"/></td>
+               <td><img id="4" src="images/hidden.png"
+                   width="90" height="90" onclick="showPic(this.id)"/></td>
+               <td><img id="5" src="images/hidden.png"
+                   width="90" height="90" onclick="showPic(this.id)"/></td>
+               <td><img id="6" src="images/hidden.png"
+                   width="90" height="90" onclick="showPic(this.id)"/></td>
+            </tr>
+              <td><img id="7" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+              <td><img id="8" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+              <td><img id="9" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+              <td><img id="10" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+              <td><img id="11" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+              <td><img id="12" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+              <td><img id="13" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+            <tr>
+              <td><img id="14" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+              <td><img id="15" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+              <td><img id="16" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+              <td><img id="17" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+              <td><img id="18" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+              <td><img id="19" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+              <td><img id="20" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+            </tr>
+            <tr>
+              <td><img id="21" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+              <td><img id="22" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+              <td><img id="23" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+              <td><img id="24" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+              <td><img id="25" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+              <td><img id="26" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+              <td><img id="27" src="images/hidden.png"
+                  width="90" height="90" onclick="showPic(this.id)"/></td>
+            </tr>
+</tbody>
+        </table>
+        <br/>
+        <span id ="cheat" onclick="cheat()">Stuck? Click here!</span>
+        <br/>
+        Number of Guesses: <span id="numberOfGuesses">0</span>
+        <br/>
+        Time Elapsed: <span id ="timeElapsed">00:00:00</span>
+        <br/>
+        <span id="won"></span>
+    </body>
+</html>

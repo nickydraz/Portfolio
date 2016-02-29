@@ -1,0 +1,83 @@
+<!-- HTML by Dr. Godfrey Muganda
+
+Modified by Nicholas Drazenovic
+
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NCC Car Emporium Administrator Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {width:650px;}
+            input {margin:5px;}
+            h3 {text-align: center;}
+        </style>
+        <script src="ajax.js">
+        </script>
+    </head>
+    <body onload="menuListener()">
+        <h3>Administrator Page</h3>
+        <form method="POST" action="CarInfoServlet" enctype="multipart/form-data">
+            <fieldset>
+                <legend> Add a car</legend>
+                <table>
+                    <tr>
+                        <td>Short Description </td>
+                        <td><input type="text" id ="shortDescription" name ="shortDescription" value="" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Upload an Image </td>
+                        <td><input type="file" id ="imageFile" name="imageFile"  />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Upload Full description </td>
+                        <td> <input type="file" id ="descriptionFile" name = "descriptionFile"  />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="submit" value ="Submit The Car Information"  />
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+        <br/>
+        <fieldset>
+            <legend> View Car Information </legend>
+            <select id="availableCars" onmousedown="menuListener()" onchange="changeListener()" name="availableCars">
+                <option></option>
+                <option></option>
+            </select>
+            <br/>
+            <br/>
+            <br/>
+
+            <fieldset>
+                <legend> Image of Car </legend>
+                <div style="width:400px;border:1px;">
+                    <div style="width:280px;  text-align:center;">
+                        <img id = "carImage" alt="Image of Car"  />
+                        <br/>
+                        <span id ="short"> </span>
+                    </div>
+                </div>
+            </fieldset>
+            <br/>
+            <fieldset>
+                <legend> Full Description of Car </legend>
+                <div style="width: 280px;  text-align:center;">
+                    <textarea id="fullDescriptionTextArea" rows="8" cols="80">
+                    </textarea>
+                    <br/>
+                </div>
+            </fieldset>
+        </fieldset>
+        <div id = "debug">
+        </div>
+    </body>
+</html>
