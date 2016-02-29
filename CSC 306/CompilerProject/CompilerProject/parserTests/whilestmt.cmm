@@ -1,0 +1,15 @@
+// while stmt
+begin
+  while x != y do
+  end while;
+
+  while x  == y do
+    k = k + 1;
+  end while;
+
+  if (12) then 
+     while (y) do
+       y = y + 1;
+     end while;
+  end if;
+end

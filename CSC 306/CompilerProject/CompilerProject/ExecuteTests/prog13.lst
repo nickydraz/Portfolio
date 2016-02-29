@@ -1,0 +1,33 @@
+int k;
+begin
+  k = 1;
+  loop 
+    cout << k*k << "  " ;       
+	if k < 10 then  k= k+1; continue; end if;
+	break;
+  end loop;
+end  
+  
+  
+
+String Table
+0 :   
+
+
+Variable Table
+0: k
+
+
+Instruction Table
+0: assign k: 1
+1: loop
+2: cout  [(k)*(k)] [string: 0] 
+3: if:  (k)<(10) target: 7
+4: assign k: (k)+(1)
+5: continue: goto 1
+6: goto 7
+7: end if
+8: break: goto 11
+9: goto 1
+10: end loop
+11: exit

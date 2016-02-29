@@ -1,0 +1,5 @@
+begin
+cout << "Hello world!\n";
+cout << "Hello North Central!\n";
+cout << "This is " << "going to be " << "fun!\n";
+end

@@ -1,0 +1,11 @@
+// loop statement
+
+begin
+  loop 
+  end loop;
+
+  loop 
+    x = x + 1;
+    if  x == 10 then break; end if;
+  end loop;
+end

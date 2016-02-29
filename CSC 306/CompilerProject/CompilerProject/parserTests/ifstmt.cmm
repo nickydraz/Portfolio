@@ -1,0 +1,19 @@
+// if statement
+begin
+ if (12) then
+ end if;
+
+ if (12) then
+   x = 12;
+ end if;
+
+ if (a == b) then
+ else
+ end if;
+
+ if (a != b) then
+    x = y;
+ else
+    y = x;
+ end if;
+end

@@ -1,0 +1,6 @@
+// output statement and output expr
+begin
+  cout << "Hello World!";
+  cout << "2 + 2 is " << 2 + 2;
+end
+  

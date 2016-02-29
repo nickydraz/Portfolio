@@ -1,0 +1,6 @@
+// comparable expression
+begin
+ a = a;
+ a = a + a * b ;
+ a = a*b - c/d + -a * b %12;
+end

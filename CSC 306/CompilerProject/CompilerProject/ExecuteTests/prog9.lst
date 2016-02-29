@@ -1,0 +1,57 @@
+int x, abs;
+begin
+ cout << "Enter an integer: ";
+ cin >> x;
+ if x > 0 then
+   abs = x;
+ else
+   abs = -x; 
+ end if;  
+ cout << "absolute value of " << x << " is " << abs;
+ newline;
+ cout << "is x < 0? "  << x < 0; 
+ newline;
+ if x < 0 then
+   cout << "You entered a negative number " << x;
+   exit;
+ end if;
+ cout << "You entered a non-negative number " << x;
+ newline; 
+end 
+ 
+
+String Table
+0 : Enter an integer: 
+1 : absolute value of 
+2 :  is 
+3 : is x < 0? 
+4 : You entered a negative number 
+5 : You entered a non-negative number 
+
+
+Variable Table
+0: x
+1: abs
+
+
+Instruction Table
+0: cout  [string: 0] 
+1: cin [x] 
+2: if:  (x)>(0) target: 5
+3: assign abs: x
+4: goto 7
+5: else
+6: assign abs: -x
+7: end if
+8: cout  [string: 1] [x] [string: 2] [abs] 
+9: newline
+10: cout  [string: 3] [(x)<(0)] 
+11: newline
+12: if:  (x)<(0) target: 16
+13: cout  [string: 4] [x] 
+14: exit
+15: goto 16
+16: end if
+17: cout  [string: 5] [x] 
+18: newline
+19: exit

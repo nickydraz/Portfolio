@@ -1,0 +1,10 @@
+
+int a, b, a, c;
+int c, d, e, f;
+begin
+   a = 23;
+   z = a;
+   z = b;
+   f = f + f;
+   f = f + g + 12;
+end   

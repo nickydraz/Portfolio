@@ -1,0 +1,7 @@
+int x, y;
+int a, b, c;
+
+begin
+cout << a << "  " << b;
+
+end

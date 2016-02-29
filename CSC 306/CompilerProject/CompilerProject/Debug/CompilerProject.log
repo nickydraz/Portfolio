@@ -1,0 +1,15 @@
+﻿  compiler.cpp
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\compiler.cpp(372): warning C4018: '<' : signed/unsigned mismatch
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\compiler.cpp(413): warning C4018: '<' : signed/unsigned mismatch
+  main.cpp
+  lex.cpp
+  cmmVirtualMachine.cpp
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.cpp(43): warning C4018: '<' : signed/unsigned mismatch
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.cpp(59): warning C4018: '<' : signed/unsigned mismatch
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.cpp(209): warning C4018: '<' : signed/unsigned mismatch
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.cpp(225): warning C4018: '<' : signed/unsigned mismatch
+  Generating Code...
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.cpp(109): warning C4715: 'unary_op_expr::get_value' : not all control paths return a value
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.cpp(165): warning C4715: 'binary_op_expr::get_value' : not all control paths return a value
+  CompilerProject.vcxproj -> G:\School\2014-2015 Junior\Spring 2015\CSC 306\CompilerProject\Debug\CompilerProject.exe

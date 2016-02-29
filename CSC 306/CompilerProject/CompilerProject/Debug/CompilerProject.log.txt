@@ -1,0 +1,26 @@
+﻿  main.cpp
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.h(36): error C2797: 'variable_entry::id': list initialization inside member initializer list or non-static data member initializer is not implemented
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.h(214): error C2797: 'goto_stmt::tag': list initialization inside member initializer list or non-static data member initializer is not implemented
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.h(257): error C2797: 'assign_stmt::id': list initialization inside member initializer list or non-static data member initializer is not implemented
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.h(345): error C2797: 'marker_stmt::marker': list initialization inside member initializer list or non-static data member initializer is not implemented
+  compiler.cpp
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.h(36): error C2797: 'variable_entry::id': list initialization inside member initializer list or non-static data member initializer is not implemented
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.h(214): error C2797: 'goto_stmt::tag': list initialization inside member initializer list or non-static data member initializer is not implemented
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.h(257): error C2797: 'assign_stmt::id': list initialization inside member initializer list or non-static data member initializer is not implemented
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.h(345): error C2797: 'marker_stmt::marker': list initialization inside member initializer list or non-static data member initializer is not implemented
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\compiler.cpp(397): warning C4018: '<' : signed/unsigned mismatch
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\compiler.cpp(441): warning C4018: '<' : signed/unsigned mismatch
+  cmmVirtualMachine.cpp
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.h(36): error C2797: 'variable_entry::id': list initialization inside member initializer list or non-static data member initializer is not implemented
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.h(214): error C2797: 'goto_stmt::tag': list initialization inside member initializer list or non-static data member initializer is not implemented
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.h(257): error C2797: 'assign_stmt::id': list initialization inside member initializer list or non-static data member initializer is not implemented
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.h(345): error C2797: 'marker_stmt::marker': list initialization inside member initializer list or non-static data member initializer is not implemented
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.cpp(39): warning C4018: '<' : signed/unsigned mismatch
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.cpp(47): warning C4018: '<' : signed/unsigned mismatch
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.cpp(201): warning C4018: '<' : signed/unsigned mismatch
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\cmmvirtualmachine.cpp(215): warning C4018: '<' : signed/unsigned mismatch
+  Generating Code...
+  Compiling...
+  lex.cpp
+  Generating Code...

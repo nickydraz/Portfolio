@@ -1,0 +1,28 @@
+begin
+  x *** Error *** Undeclared identifier x
+= 34;
+  x = x + 1;
+  break;
+*** Error *** Break statement must occur inside of loop.
+  x = 7;
+  continue;
+*** Error *** Continue statement must occur inside of loop.
+end  
+
+String Table
+
+
+Variable Table
+0: x
+
+
+Instruction Table
+0: assign x: 34
+1: assign x: (x)+(1)
+2: break: goto 0
+3: assign x: 7
+4: continue: goto 0
+5: exit
+
+
+There are errors in the cmm program.

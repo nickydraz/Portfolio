@@ -1,0 +1,8 @@
+// factor
+begin
+ a = 12; // number
+ a = id; // id
+ a = (a);
+ a = !a;
+ a = -12;
+end

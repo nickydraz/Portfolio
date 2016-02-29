@@ -1,0 +1,13 @@
+int k, number, sum;
+begin
+  cout << "Enter a number: ";
+  cin >> number;
+  sum = 0;
+  k = 1;
+  while k <= number do
+     sum = sum + k;
+	 k = k+1;
+  end while;
+  cout << "The sum is " << sum;
+ end
+  

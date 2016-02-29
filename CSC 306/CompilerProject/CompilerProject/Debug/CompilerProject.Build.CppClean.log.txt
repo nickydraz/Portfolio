@@ -1,0 +1,6 @@
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\debug\vc120.pdb
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\debug\vc120.idb
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\debug\lex.obj
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\debug\compilerproject.tlog\cl.read.1.tlog
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\debug\compilerproject.tlog\cl.write.1.tlog
+g:\school\2014-2015 junior\spring 2015\csc 306\compilerproject\compilerproject\debug\compilerproject.tlog\cl.command.1.tlog

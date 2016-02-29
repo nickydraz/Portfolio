@@ -1,0 +1,16 @@
+int a;
+begin
+ cout << "Enter a number: ";
+ cin >> a;
+ cout << "The absolute value of " << a << " is: ";
+ if a < 0 then
+   cout << -a;
+ else
+   cout << a;
+ end if;
+ cout << "\n";
+ if a == 0 then
+   cout << "You entered 0.";
+ end if;
+ cout << "\nGoodbye!";
+end

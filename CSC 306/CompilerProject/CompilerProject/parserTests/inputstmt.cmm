@@ -1,0 +1,7 @@
+// input stmt, break, continue
+begin
+  break;
+  continue;
+  cin >> x;
+  cin >> x >> y;
+end

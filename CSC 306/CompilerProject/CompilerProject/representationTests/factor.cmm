@@ -1,0 +1,9 @@
+int x, y, z;
+begin
+ x = 23;
+ x = y;  // var
+ x = !y;
+ x = - y;
+ x = (z);
+end  
+ 
