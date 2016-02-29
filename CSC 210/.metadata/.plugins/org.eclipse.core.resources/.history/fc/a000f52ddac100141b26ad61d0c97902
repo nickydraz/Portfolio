@@ -1,0 +1,146 @@
+//Maze GUI
+//Written by Nicholas Drazenovic
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+import javax.swing.*;
+
+public class MazeGUI extends JFrame {
+
+	//The maze array
+	JLabel[][] cell;
+	
+	//size of each tile.
+	//Same dimensions (30 x 30) as
+	//icons being used
+	int numPixels = 30;
+	
+	//Actual dimensions of the maze itself
+	int boardSize;
+	
+	/************ constructor *************
+	 * 
+	 * @param size
+	 * @param M
+	 * 
+	 * Constructor. Sets boardSize and layout, 
+	 * then calls createBoard to actually create
+	 * the GUI window.
+	 * 
+	 * Once done, display it to the user.
+	 */
+	public MazeGUI(int size, char[][] M)
+	{
+		 boardSize = size;
+		 
+       // Set window size and layout
+       setSize(numPixels *  size, numPixels * size);
+       setLayout(new GridLayout(size, size));
+
+       //Call method to actually create the maze 
+       createBoard(boardSize, M);
+        
+       setDefaultCloseOperation(EXIT_ON_CLOSE);
+       pack();
+        
+       //Center the frame
+       setLocationRelativeTo(null);
+       //Display the window
+       setVisible(true);
+	}
+
+	/***************** createBoard *************
+	 * 
+	 * @param n
+	 * @param M
+	 * 
+	 * Called by constructor. 
+	 * Creates the maze GUI.
+	 */
+	public void createBoard(int n, char[][] M)
+	{
+	     // Create an array of JLabels 
+        cell = new JLabel[n][n];
+        
+        //Display waiting dialog
+        WaitingDialog loading = new WaitingDialog();
+        
+        for(int row = 0; row < M.length; row++)
+        {
+            for(int col = 0; col < M.length; col++)
+            {
+            	cell[row][col] = new JLabel();
+            	cell[row][col].setSize(numPixels, numPixels);
+            	cell[row][col].setPreferredSize(new Dimension(numPixels, numPixels));
+            	
+            	if (M[row][col] == 'X')
+            	{
+	                // Create next JLabel with desired properties
+	                cell[row][col].setIcon(new ImageIcon("wall.gif"));
+            	}
+            	else if (M[row][col] == '0')
+            	{
+            		// Create next JLabel with desired properties
+	                cell[row][col].setIcon(new ImageIcon("open.gif"));
+            	}
+            	else if (M[row][col] == '@')
+            	{
+            		// Create next JLabel with desired properties
+	                cell[row][col].setIcon(new ImageIcon("special.gif"));
+            	}
+            	else
+            	{
+            		// Create next JLabel with desired properties
+	                cell[row][col].setIcon(new ImageIcon("end.gif"));
+            	}//end else
+            	
+            	this.add(cell[row][col]);
+             }//end inner for
+        }//end outer for	
+       
+        //Close the waiting dialog
+        loading.dispose();
+	}//end constructor
+
+
+	/************** changeTile **********************
+	 * 		
+	 * @param row
+	 * @param col
+	 * @param type
+	 * 
+	 * 
+	 * Method that changes the icon of the current 
+	 * tile that is being walked on. Icon depends on
+	 * if the player is backtracking or not.
+	 ************************************************/
+	public void changeTile(int row, int col, int type) 
+	{
+	
+		//Delay so change is visible to user.
+		sleep(150);
+	
+		
+		if (type == 0)
+			cell[row][col].setIcon(new ImageIcon("walked.gif"));
+		else
+			cell[row][col].setIcon(new ImageIcon("back.gif"));
+	}
+	
+	// **************** sleep ***************
+	public void sleep(int ms)
+	{
+		try
+		{
+			Thread.sleep(ms);
+		}
+		catch(InterruptedException ex)
+		{
+          // DO NOTHING. 
+          // This is just here because Thread sleep requires exception handle.
+		} 
+   } // end sleep
+}// end class

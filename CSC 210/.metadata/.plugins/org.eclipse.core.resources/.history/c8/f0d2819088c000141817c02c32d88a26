@@ -1,0 +1,246 @@
+
+
+//Maze GUI Version
+//Written by Nicholas Drazenovic
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+import javax.swing.*;
+
+public class MazeGUI extends JFrame {
+
+	JLabel[][] cell;
+	int numPixels = 100;
+	int boardSize;
+	JProgressBar progressBar;
+	
+	
+	public MazeGUI(int size, char[][] M)
+	{
+		 boardSize = size;
+        // Set window size and layout
+       setSize(size * numPixels, size * numPixels);
+       setLayout(new GridLayout(size, size));
+
+        createBoard(size, M);
+        
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        pack();
+        
+		//Center the frame
+		setLocationRelativeTo(null);
+        setVisible(true);
+	}
+
+	
+	public void createBoard(int n, char[][] M)
+	{
+	     // Create an array of JLabels 
+        cell = new JLabel[n][n];
+        
+        //Display waiting dialog
+        WaitingDialog loading = new WaitingDialog();
+        
+        for(int row = 0; row < M.length; row++)
+        {
+            for(int col = 0; col < M.length; col++)
+            {
+            	
+            	if (M[row][col] == 'X')
+            	{
+	                // Create next JLabel with desired properties
+	                cell[row][col] = new JLabel();
+	                
+	                //Scale the image so that it fits a variable
+	    			//board size.
+	    			try
+	    			{
+	    				BufferedImage originalIcon = ImageIO.read(new File("wall.png"));
+	    				Image scaledIcon = originalIcon.getScaledInstance(75, 75, Image.SCALE_SMOOTH);
+	    				ImageIcon wallIcon = new ImageIcon(scaledIcon);
+	    				
+	    				//Change the icon of the tile
+	    				cell[row][col].setIcon(wallIcon);
+	    				
+	    					
+	    				
+	    			}
+	    			catch (IOException e)
+	    			{
+	    				//Do nothing
+	    			}
+
+	    			cell[row][col].setSize(numPixels, numPixels);
+	                cell[row][col].setPreferredSize(new Dimension(numPixels, numPixels));
+	                cell[row][col].setOpaque(true);
+	                
+	                // Add the JLabel to the frame
+	                this.add(cell[row][col]);
+            	}
+            	else if (M[row][col] == '0')
+            	{
+            		// Create next JLabel with desired properties
+	                cell[row][col] = new JLabel();
+	                
+	                //Scale the image so that it fits a variable
+	    			//board size.
+	    			try
+	    			{
+	    				BufferedImage originalIcon = ImageIO.read(new File("open.png"));
+	    				Image scaledIcon = originalIcon.getScaledInstance(100, 100, Image.SCALE_SMOOTH);
+	    				ImageIcon openIcon = new ImageIcon(scaledIcon);
+	    				
+	    				//Change the icon of the tile
+	    				cell[row][col].setIcon(openIcon);
+	    				
+	    					
+	    				
+	    			}
+	    			catch (IOException e)
+	    			{
+	    				//Do nothing
+	    			}
+	    			
+	                
+	                cell[row][col].setSize(numPixels, numPixels);
+	                cell[row][col].setPreferredSize(new Dimension(numPixels, numPixels));
+	                cell[row][col].setOpaque(true);
+	                
+	                // Add the JLabel to the frame
+	                this.add(cell[row][col]);
+            	}
+            	else if (M[row][col] == '@')
+            	{
+            		// Create next JLabel with desired properties
+	                cell[row][col] = new JLabel();
+	               
+	                //Scale the image so that it fits a variable
+	    			//board size.
+	    			try
+	    			{
+	    				BufferedImage originalIcon = ImageIO.read(new File("special.png"));
+	    				Image scaledIcon = originalIcon.getScaledInstance(100, 100, Image.SCALE_SMOOTH);
+	    				ImageIcon specialIcon = new ImageIcon(scaledIcon);
+	    				
+	    				//Change the icon of the tile
+	    				cell[row][col].setIcon(specialIcon);
+	    				
+	    					
+	    				
+	    			}
+	    			catch (IOException e)
+	    			{
+	    				//Do nothing
+	    			}
+	                
+	                cell[row][col].setSize(numPixels, numPixels);
+	                cell[row][col].setPreferredSize(new Dimension(numPixels, numPixels));
+	                cell[row][col].setOpaque(true);
+	                
+	                // Add the JLabel to the frame
+	                this.add(cell[row][col]);
+            	}
+            	else
+            	{
+            		// Create next JLabel with desired properties
+	                cell[row][col] = new JLabel();
+
+	                //Scale the image so that it fits a variable
+	    			//board size.
+	    			try
+	    			{
+	    				BufferedImage originalIcon = ImageIO.read(new File("end.png"));
+	    				Image scaledIcon = originalIcon.getScaledInstance(100, 100, Image.SCALE_SMOOTH);
+	    				ImageIcon endIcon = new ImageIcon(scaledIcon);
+	    				
+	    				//Change the icon of the tile
+	    				cell[row][col].setIcon(endIcon);
+	    				
+	    					
+	    				
+	    			}
+	    			catch (IOException e)
+	    			{
+	    				//Do nothing
+	    			}
+	                
+	                cell[row][col].setSize(numPixels, numPixels);
+	                cell[row][col].setPreferredSize(new Dimension(numPixels, numPixels));
+	                cell[row][col].setOpaque(true);
+	                
+	                // Add the JLabel to the frame
+	                this.add(cell[row][col]);
+            	}//end else
+             }//end inner for
+        }//end outer for	
+       
+        //Close the waiting dialog
+        loading.dispose();
+	}//end constructor
+
+
+	public void changeTile(int row, int col, int type) 
+	{
+	
+		sleep(50);
+	
+		
+		if (type == 0)
+		{
+			//Scale the image so that it fits a variable
+			//board size.
+			try
+			{
+				BufferedImage originalIcon = ImageIO.read(new File("walked.png"));
+				Image scaledIcon = originalIcon.getScaledInstance(100, 100, Image.SCALE_SMOOTH);
+				ImageIcon walkedIcon = new ImageIcon(scaledIcon);
+				
+				//Change the icon of the tile
+				cell[row][col].setIcon(walkedIcon);	
+				
+			}
+			catch (IOException e)
+			{
+				//Do nothing
+			}
+		}
+		else
+		{
+			//Scale the image so that it fits a variable
+			//board size.
+			try
+			{
+				BufferedImage originalIcon = ImageIO.read(new File("back.png"));
+				Image scaledIcon = originalIcon.getScaledInstance(100, 100, Image.SCALE_SMOOTH);
+				ImageIcon backIcon = new ImageIcon(scaledIcon);
+				
+				//Change the icon of the tile
+				cell[row][col].setIcon(backIcon);
+				
+					
+				
+			}
+			catch (IOException e)
+			{
+				//Do nothing
+			}
+		}
+	}
+	
+	// **************** sleep ***************
+	public void sleep(int ms)
+	{
+		try
+		{
+			Thread.sleep(ms);
+		}
+		catch(InterruptedException ex)
+		{
+          // DO NOTHING. 
+          // This is just here because Thread sleep requires exception handle.
+		} 
+   } // end sleep
+}// end class

@@ -1,0 +1,203 @@
+import java.io.*;
+import java.util.Scanner;
+
+
+/*Animal Game Class
+ * Written by Nicholas Drazenovic
+ * and Emily Huizenga
+ */
+
+public class animalGame {
+
+	//Node class to hold information
+	public class Node
+	{
+		//Lchild is the 'No' answer field
+		//Rchild is the 'Yes' answer field
+		Node Lchild, Rchild;
+		String data;
+		
+		public Node(String value)
+		{
+			data = value;
+			Lchild = null;
+			Rchild = null;
+			
+		}//end constructor
+		
+		public Node(String value, Node left, Node right)
+		{
+			
+			data = value;
+			Lchild = left;
+			Rchild = right;
+		}//end constructor
+		
+	}//end Node class
+	
+	//Scanner to read in saved game file
+	private static Scanner inputFile;
+	   
+	//Scanner to read user input
+	private static Scanner keyboard = new Scanner(System.in);
+	
+	//Printer to write to game file
+	private static PrintWriter outputFile;
+	
+	Node root = null;
+	
+	public void startNewGame()
+	{
+		root = new Node ("Does it have legs?", 
+				new Node("SNAKE"), new Node("CAT"));
+		System.out.println("Root: " + root.data + "\nLChild: " + root.Lchild.data + "\nRCHild: " + root.Rchild.data);
+	}//end startNewGame
+	
+	public void resumeOldGame(String fname) throws IOException
+	{
+      File f = new File(fname);
+      inputFile = new Scanner(f);
+      
+      root = rebuildTree();
+      
+      inputFile.close();
+      
+	}//end resumeGame
+	
+	
+	private Node rebuildTree() throws IOException
+	{
+	   //Read in the next line of the file
+	   String line = inputFile.nextLine();
+	   
+	   //Create the new node with the value from the file
+	   
+	   if (line == null)
+		   return null;
+	   
+	   if (line.equals("-1"))
+		   return null;
+	   
+	   
+	   Node newNode = new Node(line);
+
+	   //Recursive calls to set the left and 
+	   //right pointers of the node
+	   newNode.Lchild = rebuildTree();
+	   newNode.Rchild = rebuildTree();
+
+	   //Return the node to its parent
+	   return newNode;
+	}//end rebuildTree
+	
+	
+	public void playGame()
+	{
+		Node previous = null;
+		Node current = root;
+		
+		char answer; 
+		
+		while (!isLeaf(current))
+		{
+			System.out.println(current.data);
+			answer = getAndValidateInput();
+			
+			previous = current;
+			
+			if (answer == 'Y')
+			{
+				current = current.Rchild;
+			}
+			else
+			{
+				current = current.Lchild;
+			}
+		}//end while
+		
+		System.out.println("Were you thinking of " + current.data + "?");
+		answer = getAndValidateInput();
+		
+		if (answer == 'Y')
+			System.out.println("Fantastic, told you I would win!");
+		else
+			insertNewQuestion(previous, current);
+
+	}//end playGame
+	
+	public char getAndValidateInput()
+	{
+		String input = keyboard.nextLine();
+		char answer = input.toUpperCase().charAt(0);
+		
+		while (!validateInput(answer))
+		{
+			System.out.println("Entry invalid, please try again: ");
+			input = keyboard.nextLine();
+			answer = input.toUpperCase().charAt(0);
+		}//end while
+		
+		return answer;
+	}//end getAndValidate
+	
+	public boolean validateInput(char input)
+	{
+		return (input == 'Y' || input == 'N');
+	}//end valudateInput
+	
+	public void insertNewQuestion(Node oldQuestion, Node oldAnswer)
+	{
+		System.out.println("What were you thinking of?");
+		String animal = keyboard.nextLine();
+		
+		Node newAnimal = new Node(animal);
+		
+		System.out.println("Please enter a question that would lead to your animal: ");
+		String newQuestion = keyboard.nextLine();
+	
+		Node newQ = new Node(newQuestion, oldAnswer, newAnimal);
+		if (oldQuestion.Rchild.data == oldAnswer.data)
+			oldQuestion.Rchild = newQ;
+		else
+			oldQuestion.Lchild = newQ;
+	}//end insertNewQuestion
+	
+	public boolean isEmpty()
+	{
+		return (root == null);
+	}//end isEmpty
+	
+	public boolean isLeaf(Node myNode)
+	{
+		return (myNode.Lchild == null && myNode.Rchild == null);
+	}//end isLeaf
+	
+   public void startGameSave(String fname) throws IOException
+   {  
+      outputFile = new PrintWriter(fname);
+      saveGame(root, outputFile);
+      outputFile.close();
+      
+   } // end startTreeSave 
+	public void saveGame(Node myNode, PrintWriter outputFile) throws IOException
+	{
+	    
+	 	//If the node is empty, print a -1
+	 	if (myNode == null)
+	 	{
+	 		outputFile.println(-1);
+	 		return;
+	 	}
+	 	
+	 	//Else, print to the file in pre-order
+	     outputFile.println(myNode.data);
+	     
+	     saveGame(myNode.Lchild, outputFile);
+	     saveGame(myNode.Rchild, outputFile);
+
+	}//end saveGame
+	
+	
+}//end animalGame
+
+

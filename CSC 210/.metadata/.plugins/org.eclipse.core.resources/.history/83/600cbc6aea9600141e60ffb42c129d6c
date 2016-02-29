@@ -1,0 +1,88 @@
+/****************************************
+ *   Prime numbers -- POOR algorithm    *
+ *   Finds and prints all primes from   *
+ *   2 to max. Written by Prof. Walters *
+ ****************************************/
+public class PrimeBad
+{
+	static int outerLoop = 0;
+	static int loopCount = 0;
+	static int numPrimes = 0; //Set to 1 because this process does not check evens, even though 2 is technically a prime number
+	static int numsOnLine = 0; //Also set to 1 for previous reasoning
+	
+	public static void main(String[] args)
+	{
+		int max = 1000;
+		
+		
+	
+		System.out.println( "The prime numbers between 2 and " +
+		                    max + " are: \n");
+		
+		//to print out 2 since evens aren't checked
+		//System.out.print("2  ");
+		
+		primeCheck(max);
+
+		System.out.println("\n\nNumber of primes     : " + numPrimes);
+		System.out.println("Outer loop iterations: " + outerLoop);
+		System.out.println("Inner loop iterations: " + loopCount);
+	
+	}// end main
+	
+	public static boolean primeCheck(int max)
+	{
+		boolean isPrime = true;
+		
+		int increment = 1;
+		
+		for (int n = 2; n <= max; n += increment)
+		{  
+			
+			//If statement to increase the incrementer, since after 2, no even numbers are primes.
+			if (n == 3)
+				increment++;
+			
+			outerLoop++;
+			isPrime = true;
+			if (isEven(n))
+				isPrime = false;
+			else
+			{
+		    	for (int divisor = 2; divisor <= Math.sqrt(n); divisor += 2)
+				{  loopCount++;
+			    	if (n % divisor == 0)
+						isPrime = false;
+				}//end inner for	
+			}//end else
+			
+			if (isPrime)
+			   { 	numPrimes++;
+					System.out.print(n + "  ");
+					numsOnLine++;
+					if (numsOnLine == 15)
+					{  System.out.println();
+						numsOnLine = 0;
+					}
+				}
+		}// end outer for
+		
+		return isPrime;
+	}//end primeCheck
+	
+	public static boolean isEven(int x)
+	{
+		if ((x%2 == 0) && (x != 2))
+			return true;
+		else
+			return false;
+		
+	}//end isEven
+	
+}// end PrimeBad class
+
+/*
+    Number of primes     : 168
+    Outer loop iterations: 999
+    Inner loop iterations: 498501
+*/

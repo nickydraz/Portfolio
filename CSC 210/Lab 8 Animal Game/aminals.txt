@@ -1,0 +1,15 @@
+Does it have legs?
+Does it have a shell?
+SNAKE
+-1
+-1
+Snail
+-1
+-1
+Does it bark?
+CAT
+-1
+-1
+Dog
+-1
+-1

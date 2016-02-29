@@ -1,0 +1,10 @@
+//Class for Waiting Dialog box
+//Used when loading in the maps, 
+//to prevent the user thinking 
+//the program is frozen
+//Coded by Nicholas Drazenovic
+
+import javax.swing.*;
+public class WaitingDialog {
+
+}

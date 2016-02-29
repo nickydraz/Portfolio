@@ -1,0 +1,34 @@
+//Class for Waiting Dialog box
+//Used when loading in the maps, 
+//to prevent the user thinking 
+//the program is frozen
+//Coded by Nicholas Drazenovic
+
+import javax.swing.*;
+
+@SuppressWarnings("serial")
+public class WaitingDialog extends JFrame {
+	
+	JPanel box;
+	JLabel dialog;
+	
+	//Constructor
+	public WaitingDialog()
+	{
+		
+		box = new JPanel();
+	
+		dialog = new JLabel("Please wait while the maze loads");
+		
+		box.add(dialog);
+		
+		
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        pack();
+        
+		//Center the frame
+		setLocationRelativeTo(null);
+        setVisible(true);
+	}
+
+}

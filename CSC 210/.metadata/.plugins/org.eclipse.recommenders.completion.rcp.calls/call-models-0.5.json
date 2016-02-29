@@ -1,0 +1,12 @@
+{
+  "E:\\School\\2014-2015 Junior\\Winter 2015\\CSC 210\\Lab7-BinaryTree-Build\u0026Balance": {
+    "location": "E:\\School\\2014-2015 Junior\\Winter 2015\\CSC 210\\Lab7-BinaryTree-Build\u0026Balance",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027E:\\School\\2014-2015 Junior\\Winter 2015\\CSC 210\\Lab7-BinaryTree-Build\u0026Balance\u0027. Skipped."
+  },
+  "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\rt.jar",
+    "status": "RESOLVED"
+  }
+}
