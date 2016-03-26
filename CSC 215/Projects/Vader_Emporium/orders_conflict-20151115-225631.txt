@@ -538,7 +538,8 @@ Total is: 6000Cr.
 Order placed by njdrazenovic on Thursday, November 12 2015.
 **** END ORDER ****
 **** BEGIN ORDER ****
-LightSaber x12
-Total is: 72000Cr. 
-Order placed by njdrazenovic on Sunday, November 15 2015.
+LightSaber x1
+RocketLauncher x2
+Total is: 8400Cr. 
+Order placed by njdrazenovic on Friday, November 13 2015.
 **** END ORDER ****

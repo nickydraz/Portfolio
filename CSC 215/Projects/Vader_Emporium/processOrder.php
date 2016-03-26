@@ -1,46 +1,67 @@
 <?php
 
-  #Build the order string, which will be emailed to user
-  $orderString = "";
+  session_start();
+
+  if ($_SESSION["loggedIn"] != true)
+  {
+    header("Location: index.html");
+  }
+
+  function updateQty($db, $product, $qty)
+  {
+    mysqli_query($db, "UPDATE products SET qtyHand = qtyHand -".$qty." where prodName = '".$product."';");
+  }
+
+  //Server credentials
+  $server = "localhost";
+  $username = "root";
+  $password = "pokemon1994";
+  $database = "Vader";
+
+  //Connect to the database
+  $con = mysqli_connect($server, $username, $password, $database);
+
+  if (mysqli_connect_errno())
+  {
+    echo "Failed to connect to the ".$database." database: ".mysqli_connect_error();
+  }
+
+
+  $orderString = "**** BEGIN ORDER ****\n";
   $orderTotal = 0;
 
-  #Quantity checks
-  if ($_POST["saberQty"] > 0)
-  {
-    $orderString .= "Light Saber x".$_POST["saberQty"]." ";
-    $orderTotal += 6000 * $_POST["saberQty"];
-  }
-  if ($_POST["rocketQty"] > 0)
-  {
-    $orderString .= "Rocket Launcher x".$_POST["rocketQty"]." ";
-    $orderTotal += 1200 * $_POST["rocketQty"];
-  }
-  if ($_POST["flechetteQty"] > 0)
-  {
-    $orderString .= "Flechette Gun x".$_POST["flechetteQty"]." ";
-    $orderTotal += 2000 * $_POST["flechetteQty"];
-  }
-  if ($_POST["fusionQty"] > 0)
-  {
-    $orderString .= "Fusion Cutter x".$_POST["fusionQty"]." ";
-    $orderTotal += 800 * $_POST["fusionQty"];
-  }
+  $result = mysqli_query($con, "SELECT * FROM products;");
 
+  foreach ($_POST as $item)
+  {
+    $row =mysqli_fetch_assoc($result);
 
-  #open the orders text file so that the new order can be added
-  $fp = fopen("orders.txt", a);
+    if ($item > 0)
+    {
+      $orderString .= $row["prodName"]." x".$item."\n";
+      $orderTotal += $row["price"] * $item;
 
-  #Get the current date
+      //Update quantity on hand
+      updateQty($con, $row["prodName"], $item);
+
+      //Update orders table
+      mysqli_query($con, "INSERT INTO orders (orderDate, custNbr, prodNbr, quantity) VALUES (CURRENT_TIMESTAMP, ".$_SESSION['custNbr'].",".$row['prodNbr'].",".$item.")");
+    }
+
+  }//end foreach
+
+  //Close connection
+  mysqli_close($con);
+
   $mydate=getdate(date("U"));
+  $orderString .= "Total is: ".$orderTotal."Cr. \nOrder placed by ".$_SESSION["username"]." on ".$mydate[weekday].", ".$mydate[month].
+  " ".$mydate[mday]." ".$mydate[year].".\n**** END ORDER ****\n";
 
-  #Insert the information into the file
-  fputs($fp, $orderString." - - - Total is: ".$orderTotal."Cr. Order placed on ".$mydate[weekday].", ".$mydate[month].
-  " ".$mydate[mday]." ".$mydate[year].".\n");
+  mail($_SESSION["email"], "Your Recent Purchase From Darth Vader's Emporium", $orderString);
 
-  fclose($fp);
-
-  header("Location:catalog.php");
-
+  echo("<script>alert('Your order has been submitted. We will begin processing your order soon')
+  \nwindow.location = 'catalog.php'
+  \n</script>");
 
 
  ?>

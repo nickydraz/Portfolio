@@ -1,8 +1,6 @@
 <html>
   <head>
     <title>Vader's Emporium | Log-In Page</title>
-    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="emporium.css">
 
     <script>
       function validateRegular()
@@ -25,11 +23,8 @@
       {
         if (document.getElementById("username").value == "")
         {
-          alert("Please enter a username in order to request a forgotten password.");
-          return false;
+          
         }
-
-        forgotPassword();
       }
 
       function forgotPassword()
@@ -38,28 +33,22 @@
 
         document.getElementById("login").submit();
       }
-
     </script>
   </head>
   <body>
     <div id="container">
-      <br />
-      <h3>Darth Vader's Weapon Emporium</h3>
-
-      <p>Please log-in to access the Sith Lord's stock</p>
       <div id="loginBox">
-        <form name="login" id="login" onsubmit="return validateRegular()" action="processlogin.php" method="post">
-          <label for="username">Username: &nbsp;</label>
-          <input type="text" id="username" name="username" value="" >
+        <form name="login" id="login" action="processlogin.php" method="post">
+          <label for="username">Username: </label>
+          <input type="text" name="username" value="" >
           <br />
-          <label for="password">Password: &nbsp;</label>
-          <input type="password" id="password" name="password" value="" >
-          <br />
+          <label for="password">Password:&nbsp;</label>
+          <input type="password" name="password" value="" >
           <br />
           <input type="button" value="New Registration" id="newReg" onclick="window.location='registration.html'" >
-          <input type="button" value="Forgot Password" id="forgot" onclick="validateForgot()" ><!--
-        --><br />
-          <input type="submit" value="Submit" id="subBtn">
+          <input type="button" value="Forgot Password" id="forgot" onclick="forgotPassword()" >
+          <br />
+          <input type="submit" value="Submit" id="subBtn" >
           <input type="reset" value="Reset" id="reset" >
 
         </form>

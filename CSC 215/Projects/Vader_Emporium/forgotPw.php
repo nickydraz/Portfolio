@@ -1,11 +1,31 @@
 <?php
 
-
-  $username = $_POST["username"];
   $name;
   $email;
   $password;
 
+  $server = "localhost";
+  $dbUser = "root";
+  $dbPassword = "pokemon1994";
+  $database = "Vader";
+
+  //Connect to the database
+  $con = mysqli_connect($server, $dbUser, $dbPassword, $database);
+
+  if (mysqli_connect_errno())
+  {
+    echo "Failed to connect to the ".$database." database: ".mysqli_connect_error();
+  }
+
+
+  $result = mysqli_query($con, "SELECT * FROM customer where username = '".$_POST["username"]."'");
+
+  $row = mysqli_fetch_assoc($result);
+
+  $email = $row["email"];
+  $password = $row["password"];
+
+  /*
   $fp = fopen("users.csv", r);
 
   //Open database file
@@ -23,12 +43,26 @@
     }
   }
 
+  */
   if ($email != null)
   {
-    mail($email, "Vader's Emporium Forgotten Password", $name." (username: )".$username.", your password is ".$password.".");
+    mail($email, "Vader's Emporium Forgotten Password", $_POST["username"].", your password is ".$password.".");
 
-    fclose($fp);
-    header("Location: index.html");
+    //close connection
+    mysqli_close($con);
+
+    echo("<script>alert('An email containing your password has been sent')
+    \nwindow.location = 'index.html'
+    \n</script>");
+  }
+  else {
+
+    //close connection
+    mysqli_close($con);
+
+    echo("<script>alert('Username entered is not valid. Returning to log-in page.')
+    \nwindow.location = 'index.html'
+    \n</script>");
   }
 
 

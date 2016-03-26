@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Audiowide', cursive;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a {
+  color: red;
+}
+
+input {
+  width: 130px;
+}
+
+button {
+  vertical-align: middle;
+  text-align: center;
+  width: 75px;
+}
+
+table {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#sub {
+  text-align: center;
+}
+
+#DBTable {
+  border: solid;
+  border-width: 3px;
+  border-color: white;
+}
+#DBTable td , th{
+  border: solid;
+  border-width: 1px;
+  border-color: white;
+  
+}

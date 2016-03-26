@@ -1,27 +1,88 @@
 <html>
   <head>
     <title>Vader's Emporium | New Registration</title>
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="emporium.css">
+    <script>
+      function validate()
+      {
+        noError = true;
+        document.getElementById("username").style.border = "none"
+        document.getElementById("password").style.border = "none"
+        document.getElementById("name").style.border = "none"
+        document.getElementById("email").style.border = "none"
+        document.getElementById("address").style.border = "none"
+
+        if (document.getElementById("username").value == "")
+        {
+          document.getElementById("username").style.border = "solid red 3px"
+          noError = false;
+        }
+        if (document.getElementById("password").value == "")
+        {
+          document.getElementById("password").style.border = "solid red 3px"
+          noError = false;
+        }
+        if (document.getElementById("name").value == "")
+        {
+          document.getElementById("name").style.border = "solid red 3px"
+          noError = false;
+        }
+        if (document.getElementById("email").value == "")
+        {
+          document.getElementById("email").style.border = "solid red 3px"
+          noError = false;
+        }
+        if (document.getElementById("address").value == "")
+        {
+          document.getElementById("address").style.border = "solid red 3px"
+          noError = false;
+        }
+        if(!noError)
+        {
+          return false;
+        }
+      }
+
+    </script>
   </head>
 
   <body>
     <div id="container">
+      <br />
+      <h3>Please fill out the form to register an account with Vader's Emporium</h3>
+      <br />
+      <h4>If you are an employee, please speak to your supervisor to be added to the user database.</h4>
       <div id="register">
-        <form name="registration" action="processRegistration.php" method="post">
-          <label for="username">Username: </label>
-          <input type="text" name="username" value="" >
-          <br />
-          <label for="password">Password: </label>
-          <input type="password" name="password" value="" >
-          <br />
-          <label for="name">Name: </label>
-          <input type="text" name="name" value="" >
-          <br />
-          <label for="email">Email Address: </label>
-          <input type="text" name="email" value="" placeholder="email@domain.com" >
-          <br />
-          <label for="address">Physical Address: </label>
-          <input type="text" name="address" value="" placeholder="# Street; City; State">
-          <input type="submit">
+        <form name="registration" onsubmit="return validate()" action="processRegistration.php" method="post">
+          <table>
+            <tr>
+              <td><label for="username">Username: </label></td>
+              <td><input type="text" id="username" name="username" value="" ></td>
+            </tr>
+            <tr>
+              <td><label for="password">Password: </label></td>
+              <td><input type="password" id="password" name="password" value="" ></td>
+            </tr>
+            <tr>
+              <td><label for="name">Name: </label></td>
+              <td><input type="text" id="name" name="name" value="" ></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email Address: </label></td>
+              <td><input type="text" id="email" name="email" value="" placeholder="email@domain.com" ></td>
+            </tr>
+            <tr>
+              <td><label for="address">Physical Address: </label></td>
+              <td><input type="text" id="address" name="address" value="" placeholder="# Street; City; State"></td>
+            </tr>
+            <tr>
+              <td id="sub" colspan="2"><input type="submit" value="Submit" id="subBtn"></td>
+            </tr>
+            <tr>
+              <td id="sub" colspan = "2"><input type="button" value="Cancel" onclick="window.location='index.html'"></td>
+            </tr>
+          </table>
         </form>
       </div>
     </div>
