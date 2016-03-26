@@ -4,10 +4,11 @@
   $email;
   $password;
 
-  $server = "localhost";
-  $dbUser = "root";
-  $dbPassword = "pokemon1994";
+  $server = "#";
+  $username = "#";
+  $password = "#";
   $database = "Vader";
+
 
   //Connect to the database
   $con = mysqli_connect($server, $dbUser, $dbPassword, $database);

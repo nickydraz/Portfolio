@@ -20,9 +20,9 @@
       <?php include "header.php";?>
       <?php
 
-        $server = "localhost";
-        $username = "root";
-        $password = "pokemon1994";
+        $server = "#";
+        $username = "#";
+        $password = "#";
         $database = "Vader";
 
         //Connect to the database

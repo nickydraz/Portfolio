@@ -2,10 +2,11 @@
   session_start();
 
   //Connect to the database
-  $server = "localhost";
-  $username = "root";
-  $password = "pokemon1994";
+  $server = "#";
+  $username = "#";
+  $password = "#";
   $database = "Vader";
+
 
   //Connect to the database
   $con = mysqli_connect($server, $username, $password, $database);
@@ -38,7 +39,7 @@
       $_SESSION["isEmployee"] = $row["isEmployee"];
       echo "<script>window.location = 'catalog.php'</script>";
   }
-  
+
     //close the connection
   mysqli_close($con);
  header("Location: catalog.php");

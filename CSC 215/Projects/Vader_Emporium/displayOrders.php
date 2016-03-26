@@ -29,10 +29,11 @@
         </tr>
         <?php
 
-          $server = "localhost";
-          $username = "root";
-          $password = "root";
-          $database = "Vader";
+        $server = "#";
+        $username = "#";
+        $password = "#";
+        $database = "Vader";
+
 
           //Connect to the database
           $con = mysqli_connect($server, $username, $password, $database);

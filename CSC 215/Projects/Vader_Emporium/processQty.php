@@ -15,10 +15,11 @@
   }
 
   //Server credentials
-  $server = "localhost";
-  $username = "root";
-  $password = "pokemon1994";
+  $server = "#";
+  $username = "#";
+  $password = "#";
   $database = "Vader";
+
 
   //Connect to the database
   $con = mysqli_connect($server, $username, $password, $database);
